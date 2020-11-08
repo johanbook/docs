@@ -1,12 +1,12 @@
 # HTTP
 
 HTTP (Hyper Text Transport Protocol) is a network protocol for transferring
-hypertext over [TCP](tcp). Hypertext itself is text containing
-hyperlinks, or simply links, that link to other content, typically using the URI
-scheme. The protocol is both stateless and response-request based. All responses
-and requests are encoded in the TCP body. An HTTP connection is established on
-top of TCP and an HTTP status code is recieved, e.g. `HTTP/1.1 200 OK`. HTTP
-itself is a stateless protocol (which suits well with REST).
+hypertext over [TCP](tcp). Hypertext itself is text containing hyperlinks, or
+simply links, that link to other content, typically using the URI scheme. The
+protocol is both stateless and response-request based. All responses and
+requests are encoded in the TCP body. An HTTP connection is established on top
+of TCP and an HTTP status code is recieved, e.g. `HTTP/1.1 200 OK`. HTTP itself
+is a stateless protocol (which suits well with REST).
 
 An example request can look like this
 
