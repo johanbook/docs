@@ -3,6 +3,10 @@
 These are my personal docs on various computer related topics. Note that is it
 more of many mini-wikis than tutorials.
 
+## Data structures
+
+- [Overview](data_structures/overview.md)
+
 ## DevOps
 
 - [Deployment](devops/deployment.md)

@@ -16,18 +16,27 @@ order to gain access to a system.
 ## Denial of service
 
 DoS (Denial of Service). A target is flooded with requests, causing it either
-slow down answer legitimate requests or going down completely. These attacks can
-be both fast and slow.
+slow down answering legitimate requests or going down completely. These attacks
+can be both fast and slow.
+
+There also ADoS (Amplified Denial of Service) attacks where one uses a server to
+amplify the attack.
 
 ## SQL Injection
 
 If input is not sanitized and run as a query in a database, a hacker can inject
 SQL into the database. One can detect that characters have not been escaped if
-one gets a server error upon entering ' into a form. An example of a SQL
-injection attack is the following `'; DROP TABLE *--` Note that this might
-change depending on what database language is used. One can also do a second
-order injection, where e.g. a username with unescaped characters is stored and
-the SQL injection attack runs when e.g. the user changes password.
+one gets a server error upon entering `'` into a form. An example of a SQL
+injection attack is
+
+```sql
+'; DROP TABLE *--`
+```
+
+Note that this might change depending on what database language is used. One can
+also do a second order injection, where e.g. a username with unescaped
+characters is stored and the SQL injection attack runs when e.g. the user
+changes password.
 
 ## XSS
 
