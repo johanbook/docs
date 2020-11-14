@@ -1,6 +1,7 @@
 # docs
 
-These are my personal docs various computer related topics
+These are my personal docs on various computer related topics. Note that is it
+more of many mini-wikis than tutorials.
 
 ## DevOps
 

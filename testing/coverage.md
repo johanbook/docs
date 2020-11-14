@@ -1,8 +1,8 @@
 # Coverage
 
-When testing code, it is useful to see which pieces of code are actually tested
-and which are not. This information is called coverage and can be generated when
-a test is run.
+When [testing](overview) code, it is useful to see which pieces of code are
+actually tested and which are not. This information is called coverage and can
+be generated when a test is run.
 
 In order to generate a coverage report, one first needs to instrument the target
 code. This is typically an automatic process that converts a code
