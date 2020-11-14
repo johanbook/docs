@@ -2,6 +2,10 @@
 
 These are my personal docs various computer related topics
 
+## DevOps
+
+- [Deployment](dev_ops/deployment.md)
+
 ## Network
 
 - [DNS](network/dns.md)
