@@ -9,6 +9,7 @@ difficulties:
 - IP addresses are very difficult to parse and remember to humans.
 
 To address these weaknesses, one introduced a system to associate names to the
-IP addresses, such as `https://my-website.com` corresponds to `https://127.0.0.1`.
-This name resolution is handled by a DNS server, which a machine can connect to
-in order look up a domain name (that process is called a NS lookup).
+IP addresses, such as `https://my-website.com` corresponds to
+`https://127.0.0.1`. This name resolution is handled by a DNS server, which a
+machine can connect to in order look up a domain name (that process is called a
+NS lookup).
