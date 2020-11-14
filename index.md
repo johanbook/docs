@@ -10,6 +10,10 @@ These are my personal docs various computer related topics
 - [TCP](network/tcp.md)
 - [URL](network/url.md)
 
+## Programming
+
+- [Various concepts](programming/concepts.md)
+
 ## Security
 
 - [Threats](security/threats.md)
