@@ -8,6 +8,7 @@ These are my personal docs various computer related topics
 
 ## Network
 
+- [DNS](network/dns.md)
 - [Internet protocol](network/internet_protocol.md)
 - [HTTP](network/http.md)
 - [TCP](network/tcp.md)
