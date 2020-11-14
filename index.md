@@ -4,7 +4,7 @@ These are my personal docs various computer related topics
 
 ## DevOps
 
-- [Deployment](dev_ops/deployment.md)
+- [Deployment](devops/deployment.md)
 
 ## Network
 
@@ -25,3 +25,4 @@ These are my personal docs various computer related topics
 ## Testing
 
 - [Overview](testing/overview.md)
+- [Coverage](testing/coverage.md)
