@@ -6,7 +6,7 @@ When you build software you will need an interpreter or compiler (depending on
 what language you are using) and often a ton of dependencies. However, a
 dependency from one project might interfere with dependencies from another
 project (if they use different versions). Therefore it is a good habit of using
-an isolated environment for each project.This is called a virtual environment.
+an isolated environment for each project. This is called a virtual environment.
 For Python there a few common approaches.
 
 ### Venv
