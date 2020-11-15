@@ -9,6 +9,7 @@ more of many mini-wikis than tutorials.
 
 ## DevOps
 
+- [CI/CD](devops/ci_cd.md)
 - [Deployment](devops/deployment.md)
 
 ## Network
