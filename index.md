@@ -26,6 +26,9 @@ more of many mini-wikis than tutorials.
 ## Security
 
 - [Threats](security/threats.md)
+- [SQLI](security/sqli.md)
+- [XRSF](security/csrf.md)
+- [XSS](security/xss.md)
 
 ## Testing
 
