@@ -6,11 +6,13 @@ more of many mini-wikis than tutorials.
 ## Data structures
 
 - [Overview](data_structures/overview.md)
+- [Graphs](data_structures/graphs.md)
 
 ## DevOps
 
 - [CI/CD](devops/ci_cd.md)
 - [Deployment](devops/deployment.md)
+- [Kubernetes](devops/kubernetes.md)
 
 ## Network
 

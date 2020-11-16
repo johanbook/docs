@@ -73,3 +73,7 @@ of order. Hence it is not very suitable for stacks or queues.
 | :-------------- | :-------------- | :--- |
 | Retrieving item | O(1)            |      |
 | Deleting item   | O(1)            |      |
+
+## Read next
+
+- [Graphs](graphs)

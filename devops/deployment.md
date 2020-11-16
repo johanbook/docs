@@ -20,7 +20,14 @@ code to see what language it is and then employs a suiting buildpack (a script
 for compiling the app). It then configures the app, does some health checks and
 deploys it. Examples of providers of Cloud Foundry are: Heroku, IBM and [].
 
+## Docker Swarm
+
+Docker swarm allows one run a swarm of Docker containers. It is similar to
+Docker compose, but more suitable to deployment as it features orchestration and
+cluster management. It is not as full-fledged (and as complicated) as
+Kubernetes.
+
 ## Kubernetes
 
-Kubernetes is a technology mainly for deploying Docker images and does load
-balancing, handling worker nodes and all for you.
+[Kubernetes](kubernetes) is a technology mainly for deploying Docker images and
+does load balancing, handling worker nodes and all for you.
