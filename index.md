@@ -24,10 +24,14 @@ more of many mini-wikis than tutorials.
 
 ## Programming
 
+- [Type systems](programming/typing.md)
 - [Various concepts](programming/concepts.md)
 
 ## Security
 
+- [Basics of IT Security](security/basics.md)
+- [Authentication and authorization flows](security/auth_flows.md)
+- [Web authentication](security/web_authentication.md)
 - [Threats](security/threats.md)
 - [SQLI](security/sqli.md)
 - [XRSF](security/csrf.md)

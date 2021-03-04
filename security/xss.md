@@ -39,3 +39,9 @@ it to an evil server.
 
 The best protection against XSS is to make sure all user input is sanitized and
 that no vulnerable data is stored in local storage or browser readable cookies.
+
+## XST
+
+There is something called Cross-Site Tracing (XST) where one uses a HTTP Track
+request to bypass the `httpOnly` attribute in a cookie. To protect against XST,
+make sure Track requests are disabled (especially from JavaScript).
