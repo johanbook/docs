@@ -39,3 +39,16 @@ Connection: close
 ```
 
 The HTML content are typically gzipped.
+
+## Methods
+
+- **DELETE** Delete a resource.
+- **GET** Get a resource.
+- **HEAD** Get resource metadata. Useful to e.g. validate a cached resource.
+- **PATCH** Modify a resource.
+- **POST** Create a resource.
+- **PUT** Replace a resource.
+
+## HTTPS
+
+HTTPS is an encrypted variant of HTTP.
