@@ -4,11 +4,11 @@ Simple Mail Transfer Protocol (SMTP) is a stateful protocol for mail exchange.
 
 ## Commands
 
-- HELO
-- MAIL FROM
-- RCPT TO
-- DATA
-- QUIT
+- `HELO`: Present own identity.
+- `MAIL FROM`: Present own email address.
+- `RCPT TO`: Send target email address.
+- `DATA`: Send data.
+- `QUIT`: Cancel connection.
 
 ## Status codes
 
