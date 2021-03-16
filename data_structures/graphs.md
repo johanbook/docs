@@ -4,6 +4,12 @@ A graph consist of several nodes which are linked to each other by references,
 similar to a linked list except each node might be connected to several other
 nodes.
 
+## Types
+
+- **Binary tree**. Tree where each node has two children or none.
+- **Quadtree**. Tree where each node has four children or none. Can be used to
+  index 2d spatial data.
+
 ## Binary search tree
 
 A binary search tree is a graph where each node has a left and a right node.
