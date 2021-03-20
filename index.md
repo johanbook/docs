@@ -21,6 +21,7 @@ more of many mini-wikis than tutorials.
 - [HTTP](network/http.md)
 - [TCP](network/tcp.md)
 - [URL](network/url.md)
+- [VPN](network/vpn.md)
 
 ## Programming
 
