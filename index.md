@@ -12,6 +12,7 @@ more of many mini-wikis than tutorials.
 
 - [CI/CD](devops/ci_cd.md)
 - [Deployment](devops/deployment.md)
+- [Docker](devops/docker.md)
 - [Kubernetes](devops/kubernetes.md)
 
 ## Network
@@ -36,6 +37,7 @@ more of many mini-wikis than tutorials.
 - [Web authentication](security/web_authentication.md)
 - [Threats](security/threats.md)
   - [DoS](security/dos.md)
+  - [MITM](security/mitm.md)
   - [SQLI](security/sqli.md)
   - [XRSF](security/csrf.md)
   - [XSS](security/xss.md)
