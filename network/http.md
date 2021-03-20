@@ -44,7 +44,8 @@ The HTML content are typically gzipped.
 
 - **DELETE** Delete a resource.
 - **GET** Get a resource.
-- **HEAD** Get oresource headers only. Useful to e.g. validate a cached resource.
+- **HEAD** Get oresource headers only. Useful to e.g. validate a cached
+  resource.
 - **PATCH** Modify a resource.
 - **POST** Create a resource.
 - **PUT** Replace a resource.
