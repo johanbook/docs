@@ -20,6 +20,7 @@ more of many mini-wikis than tutorials.
 - [Internet protocol](network/internet_protocol.md)
 - [HTTP](network/http.md)
 - [TCP](network/tcp.md)
+- [Tor](network/tor.md)
 - [URL](network/url.md)
 - [VPN](network/vpn.md)
 
