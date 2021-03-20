@@ -35,9 +35,10 @@ more of many mini-wikis than tutorials.
 - [Authentication and authorization flows](security/auth_flows.md)
 - [Web authentication](security/web_authentication.md)
 - [Threats](security/threats.md)
-- [SQLI](security/sqli.md)
-- [XRSF](security/csrf.md)
-- [XSS](security/xss.md)
+  - [DoS](security/dos.md)
+  - [SQLI](security/sqli.md)
+  - [XRSF](security/csrf.md)
+  - [XSS](security/xss.md)
 
 ## Testing
 
