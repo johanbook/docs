@@ -27,6 +27,7 @@ more of many mini-wikis than tutorials.
 
 ## Programming
 
+- [Asynchronicity](programming/asynchronicity.md)
 - [Type systems](programming/typing.md)
 - [Various concepts](programming/concepts.md)
 
