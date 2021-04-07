@@ -47,3 +47,8 @@ Uses a graph model.
 ## Spatial database
 
 For storing spatial data, such as points on a map.
+
+## Shards
+
+The data of a database server can be divided into different shards which can be
+shared across several different databases.
