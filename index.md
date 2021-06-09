@@ -38,6 +38,7 @@ more of many mini-wikis than tutorials.
 ## Security
 
 - [Basics of IT Security](security/basics.md)
+- [Encryption](security/encryption.md)
 - [Authentication and authorization flows](security/auth_flows.md)
 - [Web authentication](security/web_authentication.md)
 - [Threats](security/threats.md)
