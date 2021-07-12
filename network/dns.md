@@ -13,3 +13,10 @@ IP addresses, such as `https://my-website.com` corresponds to
 `https://127.0.0.1`. This name resolution is handled by a DNS server, which a
 machine can connect to in order look up a domain name (that process is called a
 NS lookup).
+
+## Record Types
+
+- **A** Points to an IPv4 address.
+- **AAAA** Points to an IPv6 address.
+- **ALIAS** Points to another DNS name.
+- **CNAME** Points to another DNS name. Should not be used for apex domains.
