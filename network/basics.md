@@ -1,5 +1,7 @@
 # Basics of networks
 
+Here is some basic terminology;
+
 - **Latency** - the time it takes for data to get one one point to another in a
   system.
 - **Throughput** - how many operations a machine in a system can perform. E.g
@@ -7,6 +9,5 @@
 
 ## Types of networks
 
-A Local Area Network (LAN) is a network connected to a gateway / router.
-
-A Wide Area Network (WAN) consists of serveral LANs.
+- **LAN** A Local Area Network is a network connected to a gateway / router.
+- **WAN** A Wide Area Network consists of several LANs.

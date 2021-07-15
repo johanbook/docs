@@ -58,4 +58,5 @@ Some less common ones
 
 ## HTTPS
 
-HTTPS is an encrypted variant of HTTP.
+HTTPS is an encrypted variant of HTTP using TLS (not there is also mTLS for
+mutual authentication).
