@@ -39,7 +39,7 @@ To accomplish this, two kinds of tokens are introduced;
 
 OpenID is an authentication protocol.
 
-#### OIDC
+### OIDC
 
 Since, OAuth does not support authentication, OpenID Connect (OIDC) was
 introduced. It is built on top of OAuth.
