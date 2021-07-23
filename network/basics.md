@@ -19,6 +19,6 @@ Other:
 
 ## Other network types
 
-- **Peer-To-Peer / P2P** A network where in all machines have equal responsibilities
-  (in e.g. distributing a file). This is in contrast to the server-client
-  approach.
+- **Peer-To-Peer / P2P** A network where in all machines have equal
+  responsibilities (in e.g. distributing a file). This is in contrast to the
+  server-client approach.

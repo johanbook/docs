@@ -14,8 +14,11 @@ An example request can look like this
 GET /
 HTTP/1.1
 Host: www.example.com
-where on the answer could be
+```
 
+which could obtain the following response
+
+```
 HTTP/1.1 200 OK
 Date: Mon, 23 May 2005 22:38:34 GMT
 Content-Type: text/html;
@@ -26,6 +29,7 @@ GMTServer: Apache/1.3.3.7 (Unix) (Red-Hat/Linux)
 ETag:"3f80f-1b6-3e1cb03b"
 Accept-Ranges: bytes
 Connection: close
+
 <html>
   <head>
     <title>An Example Page</title>
