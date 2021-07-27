@@ -20,5 +20,5 @@ does this by sending a HTTP request but omitting the carriage return indicating
 the end of the request. Then the attacker periodically sends additional data in
 the same connection such that the server never closes it.
 
-This is especially severe in synchronous server where a new thread is opened for
-each concurrent connection.
+This is especially severe in synchronous servers where a new thread is opened
+for each concurrent connection.

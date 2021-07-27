@@ -18,7 +18,7 @@ Cloud Foundry is a technology for automatically building apps ready for
 deployment directly from source code. The Cloud Foundry service analyzes your
 code to see what language it is and then employs a suiting buildpack (a script
 for compiling the app). It then configures the app, does some health checks and
-deploys it. Examples of providers of Cloud Foundry are: Heroku, IBM and [].
+deploys it. Examples of providers of Cloud Foundry are: Heroku and IBM.
 
 ## Docker Swarm
 
