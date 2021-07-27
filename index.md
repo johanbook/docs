@@ -8,6 +8,13 @@ more of many mini-wikis than tutorials.
 - [Overview](data_structures/overview.md)
 - [Graphs](data_structures/graphs.md)
 
+## Development
+
+- [Feedback loop](testing/feedback_loop.md)
+- [Linting](testing/linting.md)
+- [Testing](testing/overview.md)
+- [Test coverage](testing/coverage.md)
+
 ## DevOps
 
 - [CI/CD](devops/ci_cd.md)
@@ -48,12 +55,6 @@ more of many mini-wikis than tutorials.
   - [SQLI](security/sqli.md)
   - [XRSF](security/csrf.md)
   - [XSS](security/xss.md)
-
-## Testing
-
-- [Overview](testing/overview.md)
-- [Coverage](testing/coverage.md)
-- [Linting](testing/linting.md)
 
 ## Unix
 
