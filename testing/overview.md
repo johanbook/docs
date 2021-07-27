@@ -18,3 +18,20 @@ general difficult). One approach to this is DOM-testing, in where one renders a
 DOM and runs assertions against it. In order to have fast tests one want to
 avoid running them inside a browser - even if it's headless. One could instead
 use something like JSDOM.
+
+## Mocks
+
+A mock is a replacement for a function or object where the details of its
+implementation typically can be decided during runtime. The mock will also
+record all calls on it allowing for direct test assertions on the mock.
+
+## Spies
+
+One can spy on an object or function to how it's called but keeping the
+implementation intact.
+
+## Stub
+
+An object with predefined responses, which is in contrast to a mock that is
+configured during runtime. They usually do not respond to calls that do not
+match predefined responses.
