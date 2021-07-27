@@ -42,6 +42,7 @@ more of many mini-wikis than tutorials.
 - [Authentication and authorization flows](security/auth_flows.md)
 - [Web authentication](security/web_authentication.md)
 - [Threats](security/threats.md)
+  - [DNS Poisoning](security/dns_poisoning.md)
   - [DoS](security/dos.md)
   - [MITM](security/mitm.md)
   - [SQLI](security/sqli.md)
