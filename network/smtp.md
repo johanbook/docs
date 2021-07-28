@@ -12,7 +12,7 @@ Simple Mail Transfer Protocol (SMTP) is a stateful protocol for mail exchange.
 
 ## Status codes
 
-Similar to [HTTP](http) each data tranmission has a status code. For example,
+Similar to [HTTP](http) each data transmission has a status code. For example,
 the code 250 signals OK.
 
 ## Example
@@ -39,4 +39,37 @@ the code 250 signals OK.
 250 OK: queued as 79987
 > QUIT
 221 Bye
+```
+
+## Additional Security
+
+As with many web protocols, SMTP was not designed with security in mind. Here we
+will examine some additional methods for validating email authenticity and
+prohibit email spoofing.
+
+### SPF
+
+SPF (Sender Policy Framework)
+
+Has TXT record on the domain that might look like
+
+```
+v=spf1 -all
+```
+
+### DKIM
+
+DKIM (Domain Keys Identified Mail) uses digital signatures where the public key
+is distributed via a record on `selector._domainkey.example.com` (typically a
+CNAME record).
+
+### DMARC
+
+DMARC is a policy for how email that fail either SPF or DKIM should be handled.
+One can configure receiving mail server to send back reports on failed checks.
+
+DMARC uses a TXT record at `_dmarc.example.com` TXT which might look like
+
+```
+"v=DMARC1; p=none"
 ```
