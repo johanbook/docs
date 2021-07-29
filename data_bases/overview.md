@@ -54,17 +54,11 @@ offers this. Usually behaves like a key-value store.
 
 ## Other Types
 
-### Time series database
+Some other specialized data bases are:
 
-Handles time-series data. Often used for monitoring.
-
-## Graph database
-
-Uses a graph model.
-
-## Spatial database
-
-For storing spatial data, such as points on a map.
+- **Time series database** Handles time-series data. Often used for monitoring.
+- **Graph database** Uses a graph model.
+- **Spatial database** For storing spatial data, such as points on a map.
 
 ## Deployment
 
