@@ -50,7 +50,7 @@ more of many mini-wikis than tutorials.
 
 - [Basics of IT Security](security/basics.md)
 - [Encryption](security/encryption.md)
-- [Authentication and authorization flows](security/auth_flows.md)
+- [Authentication and Authorization Standards](security/auth_protocols.md)
 - [Web authentication](security/web_authentication.md)
 - [Threats](security/threats.md)
   - [DNS Poisoning](security/dns_poisoning.md)
