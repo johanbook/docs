@@ -15,7 +15,9 @@ order to gain access to a system.
 
 ## Other attacks
 
-- [DoS](dos)
-- [SQLI](sqli)
-- [XSS](xss)
-- [XSRF](crsf)
+- [DNS Poisoning](threats/dns_poisoning)
+- [DoS](threats/dos)
+- [MITM](threats/mitm)
+- [SQLI](threats/sqli)
+- [XSS](threats/xss)
+- [XSRF](threats/crsf)

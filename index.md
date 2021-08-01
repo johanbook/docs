@@ -53,12 +53,6 @@ more of many mini-wikis than tutorials.
 - [Authentication and Authorization Standards](security/auth_protocols.md)
 - [Web authentication](security/web_authentication.md)
 - [Threats](security/threats.md)
-  - [DNS Poisoning](security/dns_poisoning.md)
-  - [DoS](security/dos.md)
-  - [MITM](security/mitm.md)
-  - [SQLI](security/sqli.md)
-  - [XRSF](security/csrf.md)
-  - [XSS](security/xss.md)
 
 ## Unix
 
