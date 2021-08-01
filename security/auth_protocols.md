@@ -27,6 +27,9 @@ the UA which in turn sends it to the SP.
 
 The configurations often reside in an XML file.
 
+SAML was not initially designed for the web and has been retrofitted for it
+afterwards. It is also quite verbose.
+
 ## OAuth
 
 OAuth is an **authorization protocol** where the authorization is provided by an
