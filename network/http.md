@@ -78,3 +78,54 @@ session.
 
 The SSL certificates are issued by a Certificate Authority (CA) and can verify
 that the public key is authentic.
+
+## Encodings
+
+There are a few different common types of content encodings in HTTP (MIMEs). The
+content type is specified in the `Content-Type` header.
+
+### Form URL Encoding
+
+If the body is encoded in same format as URL query parameters, the content type
+`application/x-www-form-urlencoded` is used. It can look like
+
+```sh
+username=janice&password=84hf32khcckk
+```
+
+It is the default format used by HTML forms (unless binary data is supplied).
+Unless coding in pure HTML, I discourage using this encoding in preference of
+JSON.
+
+### JSON
+
+A lot of data transfer over HTTP is in the form of JSON, which has the MIME
+`application/json`. A JSON body could look like
+
+```json
+{ "body": "cat" }
+```
+
+### Multipart Form Data
+
+The multipart format, aka `multipart/form-data` is used for binary data. It uses
+a boundary which **must not** appear naturally in the transmitted data. It can
+look like this
+
+```
+...
+content-type: multipart/form-data; boundary=----WebKitFormBoundaryjxASSSgNGXHs9JPt
+
+------WebKitFormBoundaryjxASSSgNGXHs9JPt
+Content-Disposition: form-data; name="text"
+
+heyho where we go
+------WebKitFormBoundaryjxASSSgNGXHs9JPt
+Content-Disposition: form-data; name="more-text"
+
+ein zwei drai
+------WebKitFormBoundaryjxASSSgNGXHs9JPt--
+```
+
+Each boundary separated section starts with headers on its own, where
+`Content-Disposition` states e.g. field name.
