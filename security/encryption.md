@@ -10,10 +10,12 @@ private and public key.
 
 ## Digital Signature
 
-One can create a signature by encrypting a hash with a private key. The hash can
-then be decrypted with corresponding public key and hash used to verify whatever
-was signed. Such a signature can be juridically binding. If something is signed
-the receiving part can be confirm the message has not been tampered with.
+One can create a signature by encrypting a hash with a private key. The
+signature can then be decrypted with corresponding public key and hash used to
+verify whatever was signed. If something is signed the receiving part can be
+confirm the message has not been tampered with and is in fact from the sender.
+
+Such a signature can be juridically binding.
 
 ### Certificate
 
@@ -39,10 +41,11 @@ RSA is a asymmetric key algorithm.
 ### One Time Pad
 
 One Time Pad (OTP) is an uncrackable symmetric key algorithm. The encryption key
-must be generated anew for each new message and be as large as the message.
+must be generated anew for each new message and should be at least as large as
+the message.
 
 ### Caesar Cipher
 
 A Caesar Cipher is a substitution cipher where one shifts letters. One example
 is ROT13 where one shifts 13 letters. ROT13 is its own inverse (due to the
-english is 26 letters).
+English alphabet has 26 letters).
