@@ -1,24 +1,22 @@
 # Deployment
 
 Once an application is ready for production it is time for deployment. There are
-tons of different deployment strategies, but here is an overview of some common
-ones.
+various different deployment strategies, but here is an overview of a few
+different ones.
 
 ## Linux server
 
-The old school hosting option is to run one's own bare metal Linux server. This
-gives you full control but it does require you to manually perform maintenance
-on the server such as security updates and installation of new versions of your
-software. It is not playing as nicely with CI/CD as Cloud Foundry and
-Kubernetes.
+The old school hosting option is to roll your own Linux server. This gives you
+full control but requires you to manually perform maintenance such as security
+updates. It is not playing as nicely with CI/CD as e.g. Cloud Foundry.
 
 ## Cloud foundry
 
-Cloud Foundry is a technology for automatically building apps ready for
-deployment directly from source code. The Cloud Foundry service analyzes your
-code to see what language it is and then employs a suiting buildpack (a script
-for compiling the app). It then configures the app, does some health checks and
-deploys it. Examples of providers of Cloud Foundry are: Heroku and IBM.
+Cloud Foundry is a technology for building and deploying apps directly from
+source code. A Cloud Foundry service analyzes your code to see what language it
+is and then employs a suiting buildpack (a script for compiling the app). It
+then configures the app, does some health checks and deploys it. Examples of
+providers of Cloud Foundry are: Heroku and IBM.
 
 ## Docker Swarm
 

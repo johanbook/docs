@@ -3,10 +3,14 @@
 These are my personal docs on various computer related topics. Note that is it
 more of many mini-wikis than tutorials.
 
-## Data structures
+## Data Structures
 
 - [Overview](data_structures/overview.md)
 - [Graphs](data_structures/graphs.md)
+
+## Data Bases
+
+- [Overview](data_bases/overview.md)
 
 ## Development
 
@@ -46,15 +50,9 @@ more of many mini-wikis than tutorials.
 
 - [Basics of IT Security](security/basics.md)
 - [Encryption](security/encryption.md)
-- [Authentication and authorization flows](security/auth_flows.md)
+- [Authentication and Authorization Standards](security/auth_protocols.md)
 - [Web authentication](security/web_authentication.md)
 - [Threats](security/threats.md)
-  - [DNS Poisoning](security/dns_poisoning.md)
-  - [DoS](security/dos.md)
-  - [MITM](security/mitm.md)
-  - [SQLI](security/sqli.md)
-  - [XRSF](security/csrf.md)
-  - [XSS](security/xss.md)
 
 ## Unix
 

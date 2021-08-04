@@ -33,6 +33,7 @@ records. Some common record types are
 - **DS** Stands for Delegation of Signing and is used in DNSSEC. If there is no
   DS record, then DNSSEC is not enabled.
 - **MX** Mail Exchange record for mail servers.
+- **NS** Indicates which nameserver is authoritative for a given domain.
 
 ## DNSSEC
 
