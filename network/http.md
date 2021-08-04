@@ -46,18 +46,19 @@ The HTML content are typically gzipped.
 
 ## Methods
 
+HTTP used different _verbs_ for request purpose. The allowed verbs are:
+
+- **CONNECT** Used to establish a connection.
 - **DELETE** Delete a resource.
 - **GET** Get a resource.
 - **HEAD** Get resource headers only. Useful to e.g. validate a cached resource.
+- **OPTIONS** Checks what HTTP verbs a server supports, what CORS policy it has,
+  etc. Used in preflighted requests.
 - **PATCH** Modify a resource.
 - **POST** Create a resource.
 - **PUT** Replace a resource.
-
-Some less common ones
-
-- **CONNECT**
-- **OPTIONS**
-- **TRACE**
+- **TRACE** Returns incoming request as response body. Useful for debugging but
+  might allowing this method might introduce security vulnerabilities.
 
 ## HTTPS
 
@@ -129,3 +130,18 @@ ein zwei drai
 
 Each boundary separated section starts with headers on its own, where
 `Content-Disposition` states e.g. field name.
+
+## CORS
+
+Cross Origins Resource Sharing (CORS) is a policy that cross origin requests are
+blocked by the web browser unless the server explicitly allows the origin in a
+`Access-Control-Allow Origin` header. This is a security feature as the browser
+can not trust that requests from scripts are intended by the user (and many such
+requests would also by authenticated due to cookie being sent along with the
+request).
+
+A server can allow CORS from all origins by adding this header to its responses:
+
+```
+Access-Control-Allow-Origin: *
+```
