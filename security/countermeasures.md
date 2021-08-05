@@ -26,4 +26,5 @@ Tightening user access.
 
 ## User Training
 
-Train users in security. For example, they can be educated in social engineering.
+Train users in security. For example, they can be educated in social
+engineering.

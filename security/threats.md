@@ -13,6 +13,11 @@ categorized as the following;
 A brute force attack consist of trying a vast amount of different passwords in
 order to gain access to a system.
 
+## Backdoor
+
+A method to bypass authentication. Can be legitimate or implemented by a
+malicious part.
+
 ## Other attacks
 
 - [DNS Poisoning](threats/dns_poisoning)
