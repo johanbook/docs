@@ -14,6 +14,7 @@ more of many mini-wikis than tutorials.
 
 ## Development
 
+- [Dependencies](testing/dependencies.md)
 - [Feedback loop](testing/feedback_loop.md)
 - [Linting](testing/linting.md)
 - [Testing](testing/overview.md)
