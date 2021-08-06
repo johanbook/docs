@@ -6,14 +6,14 @@ not properly sanitized. For example, assume we have a website with a search
 field which relies on the following query:
 
 ```sql
-SELECT name, description FROM TABLE products
+SELECT name, description FROM products
 WHERE name=search_query;
 ```
 
 If a malicious user enters `x'; DROP TABLE products;` this would turn into
 
 ```sql
-SELECT name, description FROM TABLE products
+SELECT name, description FROM products
 WHERE name='x';
 DROP TABLE products;
 ```
@@ -38,7 +38,7 @@ SQLI attacks can be used on login forms. Typically when logging in, a SQL query
 of the form
 
 ```sql
-SELECT * FROM TABLE users
+SELECT * FROM users
 WHERE username=entered_username
 AND password=entered_password;
 ```
@@ -47,7 +47,7 @@ A SQLI attack on a login from could be using username and password of
 `' OR ''= '`. If input is not sanitized this would generate the following query
 
 ```sql
-SELECT * FROM TABLE users
+SELECT * FROM users
 WHERE username='' OR ''=''
 AND password='' OR ''='';
 ```
@@ -60,13 +60,13 @@ Since SQL supports batched statements that can be exploited. Consider the
 following query
 
 ```sql
-SELECT * FROM TABLE users
+SELECT * FROM users
 WHERE username=entered_username;
 ```
 
 By injecting `1; DROP TABLE *` this query becomes
 
 ```sql
-SELECT * FROM TABLE users
+SELECT * FROM users
 WHERE username=1; DROP TABLE *;
 ```
