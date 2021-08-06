@@ -25,4 +25,4 @@ malicious part.
 - [MITM](threats/mitm)
 - [SQLI](threats/sqli)
 - [XSS](threats/xss)
-- [XSRF](threats/crsf)
+- [XSRF](threats/csrf)

@@ -6,6 +6,9 @@ To tighten the security of a system there are various measures one can use.
 
 Software are designed with security in mind.
 
+- **Principle of least privilege** A system component should not have access to
+  more than what it needs.
+
 ## Firewall
 
 A firewall is a networking middleware that decides what traffic should be
