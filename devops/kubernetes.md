@@ -1,13 +1,11 @@
 # Kubernetes
 
 Kubernetes, sometimes shortened to K8s, is an open-source cluster manager
-developed by Google.
+developed by Google. It offers
 
-Pros
-
-- availability: no down time
-- scalability: high performance
-- disaster recovery - backup
+- **Availability** No down time
+- **Scalability** High performance
+- **Disaster recovery** Backup
 
 There is a master which manages several nodes, each typically running in its own
 machine. The master exposes a key-value store (etcd) to its child nodes.
@@ -40,7 +38,7 @@ As mentioned earlier, there are two types of nodes; workers and masters.
 
 Each worker node needs the following to be installed:
 
-- container runtime
+- Container runtime
 - Kubelet, interface between container and node.
 - Kube Proxy, intelligently routes requests (e.g. pods on same node are
   preferred over other nodes)

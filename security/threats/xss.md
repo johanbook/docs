@@ -1,19 +1,8 @@
 # XSS
 
-XSS (Cross site scripting) is an attack where one runs a script (typically
+Cross site scripting (XSS) is an attack where one runs a script (typically
 JavaScript) in another user's browser. This can happen if user inputs are not
 correctly sanitized and then displayed back to users.
-
-For example, if one makes a blog post on a site containing
-
-```html
-<script>
-  alert("XSS");
-</script>
-```
-
-and when visiting said blog post `XSS` is alerted, the we have found an XSS
-vulnerability.
 
 XSS can be used for
 
@@ -22,8 +11,41 @@ XSS can be used for
 - modify DOM and trigger DOM events
 - send requests (especially dangerous if cookie-based authentication is used)
 
-For example, the following could grab a token in persisted Redux store and post
-it to an evil server.
+For example, assume we have a social media site wheres user can post comments.
+The comments are rendered server side using a template language (although it is
+as much of a vulnerability for client-side rendering)
+
+```html
+<div>
+  <p>{comment}</p>
+</div>
+```
+
+A malicious user posts the following comment
+
+```html
+<script>
+  alert("XSS");
+</script>
+```
+
+When any user attempt to see this comment, the HTML renders as below which
+executes the malicious script.
+
+```html
+<div>
+  <p>
+    <script>
+      alert("XSS");
+    </script>
+  </p>
+</div>
+```
+
+## Accessing Local Storage
+
+Here is a vulnerability from an app I was working. This attack could grab a
+token in persisted Redux store and send it to an evil server.
 
 ```html
 <script>
@@ -36,6 +58,8 @@ it to an evil server.
   }
 </script>
 ```
+
+## Countermeasures
 
 The best protection against XSS is to make sure all user input is sanitized and
 that no vulnerable data is stored in local storage or browser readable cookies.

@@ -50,9 +50,10 @@ more of many mini-wikis than tutorials.
 
 - [Basics of IT Security](security/basics.md)
 - [Encryption](security/encryption.md)
+- [Countermeasures](security/countermeasures.md)
 - [Authentication and Authorization Standards](security/auth_protocols.md)
 - [Steganography](security/steganography.md)
-- [Web authentication](security/web_authentication.md)
+- [Web Authentication](security/web_authentication.md)
 - [Threats](security/threats.md)
 
 ## Unix
