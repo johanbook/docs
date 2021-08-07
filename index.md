@@ -60,4 +60,5 @@ more of many mini-wikis than tutorials.
 ## Unix
 
 - [Child processes](unix/child_processes.md)
+- [ELF](unix/elf.md)
 - [Terminology](unix/terminology.md)
