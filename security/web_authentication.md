@@ -35,7 +35,8 @@ validation) or a stateful approach where the system creates a session and gives
 the client a session id (SID).
 
 If using a session-based approach, one can store IP and confirm that it matches.
-Session can also be revoked.
+Session can also be revoked. However it is very important that the SID is
+generated **with high entropy**, otherwise it can be cracked.
 
 If running multiple servers, one will need a sticky session (or a dedicated
 authentication server / database tables).
