@@ -20,6 +20,7 @@ malicious part.
 
 ## Other attacks
 
+- [Buffer Overflow](threats/buffer_overflow.md)
 - [DNS Poisoning](threats/dns_poisoning)
 - [DoS](threats/dos)
 - [MITM](threats/mitm)
