@@ -47,6 +47,7 @@ more of many mini-wikis than tutorials.
 - [Assembly](programming/assembly.md)
 - [Asynchronicity](programming/asynchronicity.md)
 - [Stack and heap memory](programming/stack_and_heap_memory.md)
+- [Text encodings](programming/text_encoding.md)
 - [Type systems](programming/typing.md)
 - [Various concepts](programming/concepts.md)
 
