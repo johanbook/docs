@@ -14,6 +14,7 @@ more of many mini-wikis than tutorials.
 
 ## Development
 
+- [Debugging](testing/debugging.md)
 - [Dependencies](testing/dependencies.md)
 - [Feedback loop](testing/feedback_loop.md)
 - [Linting](testing/linting.md)
@@ -43,6 +44,7 @@ more of many mini-wikis than tutorials.
 
 ## Programming
 
+- [Assembly](programming/assembly.md)
 - [Asynchronicity](programming/asynchronicity.md)
 - [Type systems](programming/typing.md)
 - [Various concepts](programming/concepts.md)
