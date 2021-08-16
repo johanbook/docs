@@ -1,9 +1,9 @@
 # CI/CD
 
-CD (Continuous Integration) and CD (Continuous Deployment) are two concepts
-essential to the modern software industry. The basic idea is that whenever code
-is pushed to a repository a pipeline is triggered. This pipeline can run
-testing, linting and even deployments.
+Continuous Integration (CI) and Continuous Deployment (CD) are the concepts of
+integrating and deploying code continuously. This is accomplished by triggering
+a pipeline on certain events, typically triggered on pushes or merge requests on
+a Git SaaS. This pipeline can run testing, linting and even deployments.
 
 In continuous integration you typically run a test pipeline to confirm tests
 pass. In continuous deployment you also deploy the changes.

@@ -24,12 +24,15 @@ more of many mini-wikis than tutorials.
 ## DevOps
 
 - [CI/CD](devops/ci_cd.md)
+- [Configurations](devops/configs.md)
 - [Deployment](devops/deployment.md)
 - [Docker](devops/docker.md)
 - [Kubernetes](devops/kubernetes.md)
+- [MapReduce](devops/map_reduce.md)
 
 ## Frameworks
 
+- [Stacks](frameworks/stacks.md)
 - [Three.js](frameworks/threejs.md)
 
 ## Network
