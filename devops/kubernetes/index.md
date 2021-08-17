@@ -24,7 +24,7 @@ reassigned.
 ### Service
 
 A service is more or less a static IP address corresponding to a single pod. Can
-be both publically exposed or purely internal. It also works as a load balancer.
+be both publicly exposed or purely internal. It also works as a load balancer.
 
 ### Ingress
 

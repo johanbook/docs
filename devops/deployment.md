@@ -20,6 +20,8 @@ providers of Cloud Foundry are: Heroku and IBM.
 
 ## Docker Swarm
 
+_Docker swarm has been deprecated and should not be used for new projects_
+
 Docker swarm allows one run a swarm of Docker containers. It is similar to
 Docker compose, but more suitable to deployment as it features orchestration and
 cluster management. It is not as full-fledged (and as complicated) as

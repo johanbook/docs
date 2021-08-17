@@ -6,6 +6,8 @@ Here is some basic terminology;
   system.
 - **Throughput** - how many operations a machine in a system can perform. E.g
   how many requests a server can respond to.
+- **High Availability** - meaning that a system has high availability. Is often
+  shortened as HA.
 
 ## Types of networks
 

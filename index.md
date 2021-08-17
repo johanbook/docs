@@ -27,7 +27,7 @@ more of many mini-wikis than tutorials.
 - [Configurations](devops/configs.md)
 - [Deployment](devops/deployment.md)
 - [Docker](devops/docker.md)
-- [Kubernetes](devops/kubernetes.md)
+- [Kubernetes](devops/kubernetes/index.md)
 - [MapReduce](devops/map_reduce.md)
 
 ## Frameworks
@@ -59,6 +59,7 @@ more of many mini-wikis than tutorials.
 - [Basics of IT Security](security/basics.md)
 - [Encryption](security/encryption.md)
 - [Countermeasures](security/countermeasures.md)
+- [Hashing](security/hashing.md)
 - [Authentication and Authorization Standards](security/auth_protocols.md)
 - [Random Numbers](security/random_numbers.md)
 - [Steganography](security/steganography.md)
