@@ -29,6 +29,7 @@ more of many mini-wikis than tutorials.
 - [Docker](devops/docker.md)
 - [Kubernetes](devops/kubernetes/index.md)
 - [MapReduce](devops/map_reduce.md)
+- [Telemetry](devops/telemetry.md)
 
 ## Frameworks
 
