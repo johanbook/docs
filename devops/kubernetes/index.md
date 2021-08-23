@@ -10,26 +10,6 @@ developed by Google. It offers
 There is a master which manages several nodes, each typically running in its own
 machine. The master exposes a key-value store (etcd) to its child nodes.
 
-## Components
-
-I will here briefly discuss some different Kubernetes components.
-
-### Pod
-
-Is an abstraction over a container and hence typically meant to only run one
-container. Each pod also gets its own IP in a virtual network, however, as
-containers are ephemeral these IP addresses are not permanent and can be
-reassigned.
-
-### Service
-
-A service is more or less a static IP address corresponding to a single pod. Can
-be both publicly exposed or purely internal. It also works as a load balancer.
-
-### Ingress
-
-Ingress is a service that connects an external name to the exposed IP.
-
 ## Types of Nodes
 
 As mentioned earlier, there are two types of nodes; workers and masters.
@@ -54,8 +34,10 @@ Each master process has four services running:
   scheduler to schedule a new pod.
 - **etcd** Is a key-value store that keep tracks of the state of the cluster.
 
-One typically runs multiple masters where api server is load balanced and etcd
+One typically runs multiple masters where API server is load balanced and etcd
 use a distributed storage.
+
+This is sometimes referred to as the control plane.
 
 ### Namespaces
 
@@ -63,8 +45,7 @@ Namespaces are an efficient way of organizing components. This stops e.g. name
 clashes to cause component overriding. Resources can also be limited on a
 namespace level.
 
-### Storage
+## See also
 
-Pods are ephemeral and hence have no persistent storage. One must therefore
-configure global volumes. It is important that the storage is available on all
-nodes, not dependent on pod life-cycle and can survive a cluster crash.
+- [Components](./components.md)
+- [Storage](./storage.md)
