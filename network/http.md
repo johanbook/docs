@@ -80,6 +80,10 @@ session.
 The SSL certificates are issued by a Certificate Authority (CA) and can verify
 that the public key is authentic.
 
+### SSL Termination
+
+SSL termination is the point where HTTPS is decrypted to HTTP.
+
 ## Encodings
 
 There are a few different common types of content encodings in HTTP (MIMEs). The
