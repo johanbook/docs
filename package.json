@@ -1,0 +1,29 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanbook/docs.git"
+  },
+  "author": "Johan Book",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanbook/docs/issues"
+  },
+  "homepage": "https://github.com/johanbook/docs#readme",
+  "lint-staged": {
+    "**/*.{js,md}": [
+      "prettier --write --prose-wrap always"
+    ]
+  },
+  "devDependencies": {
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "husky": "^7.0.0"
+  }
+}
