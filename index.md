@@ -38,6 +38,7 @@ more of many mini-wikis than tutorials.
 
 ## Network
 
+- [DHCP](network/dhcp.md)
 - [DNS](network/dns.md)
 - [Internet protocol](network/internet_protocol.md)
 - [HTTP](network/http.md)
