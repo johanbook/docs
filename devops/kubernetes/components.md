@@ -53,6 +53,14 @@ spec:
     app: target-app
 ```
 
+There are four types of services:
+
+- **ClusterIP** Only reachable within cluster.
+- **NodePort** Exposes service en each nodes on a static port.
+- **LoadBalancer** Exposes service through load balancer. This is then handled
+  by e.g. a cloud provider.
+- **ExternalName** Allows using a `CNAME` record.
+
 ## Ingress
 
 An ingress controller is responsible for routing external traffic into the
