@@ -31,3 +31,15 @@ Kubernetes.
 
 [Kubernetes](kubernetes) is a technology mainly for deploying Docker images and
 does load balancing, handling worker nodes and all for you.
+
+## Serverless
+
+Serverless means that one has no specific dedicated server but rather a pool of
+resources. A task is handled as a job that is queued and given to a machine once
+available. This adds a risk for overhead.
+
+## Strategies
+
+- Canary
+- Blue/Green
+- Rolling
