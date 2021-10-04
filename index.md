@@ -72,4 +72,5 @@ more of many mini-wikis than tutorials.
 
 - [Child processes](unix/child_processes.md)
 - [ELF](unix/elf.md)
+- [SSH](network/ssh.md)
 - [Terminology](unix/terminology.md)
