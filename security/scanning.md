@@ -1,28 +1,51 @@
 # Scanning
 
-I will here show some examples of how to use the tool `nmap` to scan networks
-and hosts.
+This document will discuss different scanning techniques and demonstrate how to
+perform them using the tool `nmap`.
 
-## Local network router IP
+## Local network IP address
 
-To scan a local network we first need to find the network IP. Use `route -n` to
-find your router. It is the gateway with a destination of `0.0.0.0`.
-Alternatively, one can the IP one's own computer with `ip addr`.
+To scan a network one need its IP address. To find the address of the local
+network, one can use `route -n` to find the router. It is the gateway with a
+destination of `0.0.0.0`. Alternatively, one can see the address of one's own
+computer with `ip addr`.
 
-## Ping scans
+## Ping sweeps
 
-You can begin by a ping scan, also known as a ping sweep, to find the active IP
-addresses in the network.
+One quick way of finding active devices on a network is through a
+[ICMP](/docs/network/icmp) ping sweep. This will send an ICMP package to each
+assignable IP address in a given network. According to RFC every device must
+respond to ICMP, meaning that one has efficient way of detecting devices.
+However, some devices (e.g. Microsoft Windows hosts) do not respond to ICMP
+making them impossible to detect through such a ping sweep.
+
+The command for running a ping sweep with `nmap` is
 
 ```sh
 nmap -sn <target>
 ```
 
-This will perform a ICMP ping sweep.
+## Port scans
 
-## Scanning ports
+In order to find active services on a host one can run a port scan. One
+typically attempts to complete a TCP handshake with each port of interest. Since
+closed ports must respond with the TCP `RST` flag this gives reliable
+information on port status. If there is no response there is likely some
+firewall that filters incoming traffic.
 
-Given an IP we scan its ports and what they are running using
-`nmap -sV <target>`. Add `-O` for OS detection.
+Here are some different TCP scanning techniques
+
+- **ACK** Complete TCP handshake.
+- **SYN** Initiate TCP handshake but send `RST` instead of `ACK` as response to
+  `SYN-ACK`.
+- **Null**
+- **Fin**
+- **Xmas**
+
+We can run a TCP (ACK) port scan with service fingerprinting using
+
+```sh
+nmap -sV <target>
+```
 
 NB: Mobile devices typically do not expose any ports.
