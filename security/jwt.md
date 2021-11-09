@@ -1,8 +1,8 @@
 # JSON Web Token
 
-A JSON Web Token (JWT) is a JSON encoded in a string and contains a number of
-claims. These tokens are signed and can be used to communicate authentication or
-authorization. JWTS are url-safe as they are Base64 encoded.
+A JSON Web Token (JWT) is a JSON encoded string that contains one or several
+claims. JWTs are signed and can be used to communicate authentication or
+authorization. As these tokens are base64 encoded they are also URL-safe.
 
 ## Structure
 
@@ -23,3 +23,7 @@ payload can be something like
 Since a JWT is signed, any tampering with it will invalidate it. However, since
 JWT are meant to be public they should contain no sensitive data. They should
 typically be short-lived.
+
+If the JWT signing secret is cracked, the system using JWTs is also compromised.
+It is is therefore important to have many bits of entropy when generating a
+signing secret.
