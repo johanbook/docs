@@ -64,6 +64,7 @@ more of many mini-wikis than tutorials.
 - [Hashing](security/hashing.md)
 - [Authentication and Authorization Standards](security/auth_protocols.md)
 - [Random Numbers](security/random_numbers.md)
+- [Scanning](security/scanning.md)
 - [Steganography](security/steganography.md)
 - [Web Authentication](security/web_authentication.md)
 - [Threats](security/threats.md)

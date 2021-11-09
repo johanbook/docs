@@ -38,9 +38,14 @@ Here are some different TCP scanning techniques
 - **ACK** Complete TCP handshake.
 - **SYN** Initiate TCP handshake but send `RST` instead of `ACK` as response to
   `SYN-ACK`.
-- **Null**
-- **Fin**
-- **Xmas**
+
+These scan types does not initiate with a `SYN` but that still assumes the
+connection is reset if the port is closed. The purpose of the different scans
+are IDS and firewall detection.
+
+- **Null** Send a package without any flags at all.
+- **Fin** Set the `FIN` flag meaning the transmission is finished.
+- **Xmas** Sends a deformed data package.
 
 We can run a TCP (ACK) port scan with service fingerprinting using
 
@@ -49,3 +54,7 @@ nmap -sV <target>
 ```
 
 NB: Mobile devices typically do not expose any ports.
+
+[UDP](/docs/network/udp) port scans are more difficult since there is no
+expected response from an open port, making it impossible to differentiate
+between an open port and a filtered one.
