@@ -29,6 +29,10 @@ and level 3 where CEO have identified in person.
 
 Here are some encryption algorithms.
 
+### DES
+
+Data Encryption Standard (DES) is a broken encryption standard.
+
 ### AES
 
 Advanced Encryption Standard (AES) is an symmetric key algorithm. It is a block
