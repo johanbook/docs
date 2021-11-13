@@ -17,7 +17,7 @@ the code 250 signals OK.
 
 ## Example
 
-```
+```sh
 > telnet mail.mydomain.com
 220 mail.mydomain.com ESMTP Postfix
 > HELO server.otherdomain.com
@@ -53,7 +53,7 @@ SPF (Sender Policy Framework)
 
 Has TXT record on the domain that might look like
 
-```
+```sh
 v=spf1 -all
 ```
 
@@ -70,6 +70,6 @@ One can configure receiving mail server to send back reports on failed checks.
 
 DMARC uses a TXT record at `_dmarc.example.com` TXT which might look like
 
-```
+```sh
 "v=DMARC1; p=none"
 ```
