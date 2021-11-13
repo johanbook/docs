@@ -18,12 +18,6 @@ order to gain access to a system.
 A method to bypass authentication. Can be legitimate or implemented by a
 malicious part.
 
-## Other attacks
+## Vulnerabilities
 
-- [Buffer Overflow](threats/buffer_overflow.md)
-- [DNS Poisoning](threats/dns_poisoning)
-- [DoS](threats/dos)
-- [MITM](threats/mitm)
-- [SQLI](threats/sqli)
-- [XSS](threats/xss)
-- [XSRF](threats/csrf)
+Some common vulnerabilities are documented [here](vulnerabilities).
