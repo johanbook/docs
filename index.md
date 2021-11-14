@@ -38,11 +38,7 @@ more of many mini-wikis than tutorials.
 
 ## Network
 
-- [DHCP](network/dhcp.md)
-- [DNS](network/dns.md)
-- [Internet protocol](network/internet_protocol.md)
-- [HTTP](network/http.md)
-- [TCP](network/tcp.md)
+- [Protocols](network/protocols)
 - [Tor](network/tor.md)
 - [URL](network/url.md)
 - [VPN](network/vpn.md)
@@ -71,5 +67,4 @@ more of many mini-wikis than tutorials.
 
 - [Child processes](unix/child_processes.md)
 - [ELF](unix/elf.md)
-- [SSH](network/ssh.md)
 - [Terminology](unix/terminology.md)

@@ -1,10 +1,10 @@
 # Internet Protocol
 
-The Internet Protocol (IP) is a protocol for delivering data from one computer
-to another. It accomplishes this by dividing the data into small packages, each
-containing a header with target destination and a data body. Each package is
-then forwarded through the optimal route for the network and arrives at its
-destination, but not necessarily in the original order (which is added in
+The **Internet Protocol** (**IP**) is a protocol for delivering data from one
+computer to another. It accomplishes this by dividing the data into small
+packages, each containing a header with target destination and a data body. Each
+package is then forwarded through the optimal route for the network and arrives
+at its destination, but not necessarily in the original order (which is added in
 [TCP](tcp)).
 
 The computers that are part of a network can see all data being transmitted over

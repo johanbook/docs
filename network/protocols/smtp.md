@@ -1,6 +1,7 @@
 # SMTP
 
-Simple Mail Transfer Protocol (SMTP) is a stateful protocol for mail exchange.
+**Simple Mail Transfer Protocol** (**SMTP**) is a stateful protocol for mail
+exchange.
 
 ## Commands
 
@@ -73,3 +74,7 @@ DMARC uses a TXT record at `_dmarc.example.com` TXT which might look like
 ```sh
 "v=DMARC1; p=none"
 ```
+
+## Enumeration
+
+Metasploit has the modules `smtp_version` and `smtp_enum` for enumeration.

@@ -1,16 +1,16 @@
 # HTTP
 
-HTTP (Hyper Text Transport Protocol) is a network protocol for transferring
-hypertext over [TCP](tcp). Hypertext itself is text containing hyperlinks, or
-simply links, that link to other content, typically using the URI scheme. The
-protocol is both stateless and response-request based. All responses and
-requests are encoded in the TCP body. An HTTP connection is established on top
-of TCP and an HTTP status code is received, e.g. `HTTP/1.1 200 OK`. HTTP itself
-is a stateless protocol (which suits well with REST).
+**Hyper Text Transport Protocol** (**HTTP**) is a network protocol for
+transferring hypertext over [TCP](tcp). Hypertext itself is text containing
+hyperlinks, or simply links, that link to other content, typically using the URI
+scheme. The protocol is both stateless and response-request based. All responses
+and requests are encoded in the TCP body. An HTTP connection is established on
+top of TCP and an HTTP status code is received, e.g. `HTTP/1.1 200 OK`. HTTP
+itself is a stateless protocol (which suits well with REST).
 
 An example request can look like this
 
-```
+```txt
 GET /
 HTTP/1.1
 Host: www.example.com
@@ -18,7 +18,7 @@ Host: www.example.com
 
 which could obtain the following response
 
-```
+```txt
 HTTP/1.1 200 OK
 Date: Mon, 23 May 2005 22:38:34 GMT
 Content-Type: text/html;
@@ -117,7 +117,7 @@ The multipart format, aka `multipart/form-data` is used for binary data. It uses
 a boundary which **must not** appear naturally in the transmitted data. It can
 look like this
 
-```
+```txt
 ...
 content-type: multipart/form-data; boundary=----WebKitFormBoundaryjxASSSgNGXHs9JPt
 
@@ -146,6 +146,6 @@ request).
 
 A server can allow CORS from all origins by adding this header to its responses:
 
-```
+```txt
 Access-Control-Allow-Origin: *
 ```

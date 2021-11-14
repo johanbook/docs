@@ -1,6 +1,6 @@
 # SSH
 
-**SSH** (Secure SHell) is shell that is run over TCP.
+**Secure SHell** (**SSH**) is shell that is run over TCP.
 
 ## Configuring SSH
 
