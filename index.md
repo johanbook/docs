@@ -59,11 +59,9 @@ more of many mini-wikis than tutorials.
 ## Security
 
 - [Basics of IT Security](security/basics.md)
-- [Encryption](security/encryption.md)
+- [Cryptography](security/cryptography)
 - [Countermeasures](security/countermeasures.md)
-- [Hashing](security/hashing.md)
 - [Authentication and Authorization Standards](security/auth_protocols.md)
-- [Random Numbers](security/random_numbers.md)
 - [Scanning](security/scanning.md)
 - [Steganography](security/steganography.md)
 - [Web Authentication](security/web_authentication.md)
