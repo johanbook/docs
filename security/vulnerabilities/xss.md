@@ -1,8 +1,8 @@
-# XSS
+# Cross Site Scripting
 
-Cross site scripting (XSS) is an attack where one runs a script (typically
-JavaScript) in another user's browser. This can happen if user inputs are not
-correctly sanitized and then displayed back to users.
+**Cross site scripting** (**XSS**) is an attack where one runs a script
+(typically JavaScript) in another user's browser. This can happen if user inputs
+are not correctly sanitized and then displayed back to users.
 
 XSS can be used for
 
@@ -10,6 +10,7 @@ XSS can be used for
 - steal cookies (unless they are server-side read-only)
 - modify DOM and trigger DOM events
 - send requests (especially dangerous if cookie-based authentication is used)
+- keylogger
 
 For example, assume we have a social media site wheres user can post comments.
 The comments are rendered server side using a template language (although it is
