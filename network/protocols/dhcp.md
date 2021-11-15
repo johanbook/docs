@@ -25,3 +25,10 @@ Pre-scan script results:
 WARNING: No targets were specified, so 0 hosts scanned.
 Nmap done: 0 IP addresses (0 hosts up) scanned in 11.32 seconds
 ```
+
+## Handshake
+
+1. **DHCP Discover** The client requests an IP from any device on the network.
+2. **DHCP Offer** The host offers it an IP address.
+3. **DHCP Request** The client requests the offered IP address.
+4. **DHCP ACK** The host acknowledges that the IP address has been designated.
