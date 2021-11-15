@@ -1,8 +1,8 @@
 # Denial of Service
 
-DoS (Denial of Service). A target is flooded with requests, causing it either
-slow down answering legitimate requests or going down completely. These attacks
-can be both fast and slow.
+**Denial of Service** (**DoS**) is an attack where a target is flooded with
+network traffic potentially compromising its availability. These attacks can be
+both fast and slow.
 
 ## Types
 

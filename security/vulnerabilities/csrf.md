@@ -1,8 +1,9 @@
 # CSRF
 
-CSRF (Cross Site Request Forgery) is an attack where one website sends requests
-as if where another site. This is especially a problem if authentication is
-handled by cookies. Assume there is a site serving the following HTML;
+**CSRF** (**Cross Site Request Forgery**) is an attack where one website sends
+requests as if where another site. This is especially a problem if
+authentication is handled by cookies. Assume there is a site serving the
+following HTML;
 
 ```html
 <body onload="document.forms[0].submit()">

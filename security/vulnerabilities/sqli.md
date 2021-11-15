@@ -1,9 +1,9 @@
 # SQL Injection
 
-A SQL Injection (SQLI) is an attack where one injects unwanted queries into a
-database where they are executed. This attack vector arises when user input is
-not properly sanitized. For example, assume we have a website with a search
-field which relies on the following query:
+A **SQL Injection** (**SQLI**) is a command injection attack where one injects
+unwanted queries into a database where they are executed. This attack vector
+arises when user input is not properly sanitized. For example, assume we have a
+website with a search field which relies on the following query:
 
 ```sql
 SELECT name, description FROM products

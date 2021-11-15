@@ -54,14 +54,14 @@ more of many mini-wikis than tutorials.
 
 ## Security
 
-- [Basics of IT Security](security/basics.md)
+- [Introduction](security)
 - [Cryptography](security/cryptography)
 - [Countermeasures](security/countermeasures.md)
 - [Authentication and Authorization Standards](security/auth_protocols.md)
 - [Scanning](security/scanning.md)
 - [Steganography](security/steganography.md)
 - [Web Authentication](security/web_authentication.md)
-- [Threats](security/threats.md)
+- [Vulnerabilities](security/vulnerabilities)
 
 ## Unix
 
