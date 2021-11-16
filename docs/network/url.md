@@ -1,6 +1,6 @@
 # URL
 
-A Uniform Resource Locator (URL) is an address to some resource. It also
+A **Uniform Resource Locator** (**URL**) is an address to some resource. It also
 includes information on how that resource should be accessed (via its protocol).
 
 Consider the URL `http://localhost:8080/alpha?bravo=charlie#delta`. It consists

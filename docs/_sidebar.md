@@ -46,9 +46,10 @@
     - [SMB](/network/protocols/smb)
     - [SMTP](/network/protocols/smtp)
     - [SSH](/network/protocols/ssh)
-    - [TCP](/network/protocols/tcp.md)
-    - [UPnP](/network/protocols/upnp.md)
+    - [TCP](/network/protocols/tcp)
+    - [UPnP](/network/protocols/upnp)
   - [Tor](/network/tor)
+  - [Topologies](/network/topologies)
   - [URL](/network/url)
   - [VPN](/network/vpn)
 

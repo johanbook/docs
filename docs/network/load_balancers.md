@@ -1,7 +1,7 @@
 # Load balancers
 
-A load balancer is a network component that routes incoming load to different
-targets. This can be done on both hardware and software level.
+A **load balancer** is a network component that routes incoming load to
+different targets. This can be done on both hardware and software level.
 
 A load balancer needs to keep track of its target services. This can be done by
 e.g. each service registering when spinning up and unregestering when spinning

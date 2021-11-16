@@ -1,8 +1,8 @@
 # VPN
 
-A Virtual Private Network (VPN) is a technology to join two targets (which
-itself can be networks)  
-for private communication over another network (typically the internet).
+A **Virtual Private Network** (**VPN**) is a technology to join two targets
+(which itself can be networks) for private communication over another network
+(typically the internet).
 
 A common use case is the following: If A wishes to communicate with B over a
 public network, then if C VPN server B cannot tell its communicating with A.
