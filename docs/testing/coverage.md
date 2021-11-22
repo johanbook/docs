@@ -7,7 +7,7 @@ be generated when a test is run.
 In order to generate a coverage report, one first needs to instrument the target
 code. This is typically an automatic process that converts a code
 
-```js
+```ts
 const arr = [1, 2, 3];
 
 for(item of arr):
@@ -16,7 +16,7 @@ for(item of arr):
 
 to
 
-```js
+```ts
 const coverage = {"line1": 0, "line2": 0}
 
 coverage["line1"]++; const arr = [1, 2, 3];

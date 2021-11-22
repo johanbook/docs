@@ -29,8 +29,8 @@ Kubernetes.
 
 ## Kubernetes
 
-[Kubernetes](kubernetes) is a technology mainly for deploying Docker images and
-does load balancing, handling worker nodes and all for you.
+Kubernetes is a technology mainly for deploying Docker images and does load
+balancing, handling worker nodes and all for you.
 
 ## Serverless
 

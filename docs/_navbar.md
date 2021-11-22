@@ -1,4 +1,0 @@
-- [Docs](/)
-- [Cooking](https://johanbook.com/cooking)
-- [Workout](https://johanbook.com/workout)
-- [Github](https://github.com/johanbook)

@@ -21,4 +21,5 @@ Authorization (or AuthZ for short) is to deduce what privileges an entity has.
 
 ## Vulnerabilities
 
-Some common types of vulnerabilities are documented [here](vulnerabilities).
+Some common types of vulnerabilities are documented
+[here](./vulnerabilities/README.md).

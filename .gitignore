@@ -1,1 +1,4 @@
-node_modules
+.docusaurus
+node_modules/
+build/
+docs/_build/

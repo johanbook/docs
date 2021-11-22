@@ -1,13 +1,19 @@
 # Artificial neural networks
 
-What if we can model the algorithms to behave in the same pattern as the human
-brain? From that very question, the concept of artificial neural networks was
-born. Sadly, it was also where the resemblance between the two ended.
+An **Artificial Neural Network** (**ANN**) is a network of nodes, where every
+connection can have different strengths. In mathematical terms, a single node
+$y$ be expressed as
 
-A neural network consist of a network of nodes, like the brain, where every
-connection can have different strengths, also like the brain. In mathematical
-terms, this can for a single node be expressed as \begin{equation} y =
-\phi\left(\sum_i x_i\right) \end{equation}
+$$
+y = \phi\left(\sum_i \omega_i x_i\right)
+$$
+
+where $\phi$ is the activation function of the node, $x_i$ its inputs and
+$\omega_i$ the weights. The network is trained by optimizing $y$ via $\omega$.
+
+## Optimizers
+
+The most common ones are SGD and Adam.
 
 ## Convolutional neural networks
 
@@ -47,22 +53,3 @@ uncertainty.
 
 To achieve top-notch performance it is of utter importance that one treats the
 data properly.
-
-### BatchNorm
-
-### Data augmentation
-
-## Optimizers
-
-The most common ones are SGD and Adam.
-
-## Learning rate schedulers
-
-The learning rate is likely the one hyperparameter that is the most difficult to
-set. By performing a range test one can establish a range of suitable learning
-rates. From this one can construct a learning rate scheduler, such as CLR
-(Cyclic Learning Rate) or a plateau scheduler.
-
-Warm starting is when one start training a model that is already pre-trained.
-This might shorten otherwise long training times. The network does not even need
-to be pre-trained on the same type of domain of data.

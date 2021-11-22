@@ -1,7 +1,7 @@
 # IP Address
 
 An **IP address** is an address used for transmitting data using the
-[internet protocol](/protocol/internet_protocol).
+[internet protocol](./protocols/ip).
 
 ## Subnet mask
 

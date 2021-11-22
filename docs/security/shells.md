@@ -1,6 +1,7 @@
 # Shells
 
-There are reverse shells and bind shells.
+There are reverse shells and bind shells. Common tools for obtaining shells are
+[telnet](../network/telnet) and [socat](../network/socat).
 
 ## Web shells
 

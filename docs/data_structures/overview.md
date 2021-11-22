@@ -1,6 +1,6 @@
 # Data structures
 
-Here are some useful data structures.
+This document will outline some common data structures.
 
 ## Array list
 

@@ -1,11 +1,16 @@
 # Configuration
 
-There are static and dynamic configurations.
+All software needs some form of configuration. Configurations can be divided
+into static configurations and dynamic ones.
 
 ## Static configuration
 
-Safer but longer turn-around. Typically covered by tests.
+Static configuration are those that are hardcoded / embedded into an
+application. They are safer but have longer turn-around. They are typically also
+covered by tests.
 
 ## Dynamic configuration
 
-Configuration that takes effect immediately but often less safe.
+Dynamic configurations on the other hand are typically set in an application
+runtime. This means that the configurations might not be covered by test and
+faulty configurations might bring down the application.

@@ -13,8 +13,8 @@ exchange.
 
 ## Status codes
 
-Similar to [HTTP](http) each data transmission has a status code. For example,
-the code 250 signals OK.
+Similar to [HTTP](./http/README) each data transmission has a status code. For
+example, the code 250 signals OK.
 
 ## Example
 

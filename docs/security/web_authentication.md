@@ -17,7 +17,7 @@ domain-wide cookies one can achieve a SSO. However, it has the following
 drawbacks:
 
 - Requires cookies to be allowed in browser
-- [XSRF attacks](threats/csrf.md)
+- [XSRF attacks](./vulnerabilities/csrf.md)
 
 ### Tokens
 
@@ -26,7 +26,8 @@ However, this required running JavaScript/PHP and that being allowed in the
 browser and inserts the token into the headers of each request.
 
 A problem is where the token should be stored if one aims to achieve SSO.
-Storing data in any web storage is as of now susceptible to [XSS](threats/xss).
+Storing data in any web storage is as of now susceptible to
+[XSS](./vulnerabilities/xss).
 
 ## Stateless vs Stateful
 

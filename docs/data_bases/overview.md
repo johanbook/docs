@@ -1,6 +1,6 @@
 # Databases
 
-A database is a service dedicated to storing and retrieving data. A database
+A **database** is a service dedicated to storing and retrieving data. A database
 typically has the following attributes
 
 - **Persistence** Data is persisted through program failures.

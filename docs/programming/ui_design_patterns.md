@@ -10,10 +10,10 @@ The Model would manipulate the data (and perform business logic) and trigger
 events in the View. This means that both the Controller and View are dependent
 on the Model. This did not fully account for e.g. handling databases etc.
 
-## MVVM
-
-Model View View Model (MVVM)
+Is for a fullstack application.
 
 ## Model View Presenter
 
 Model View Presenter (MVP)
+
+Is for client application.

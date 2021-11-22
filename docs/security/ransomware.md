@@ -1,3 +1,0 @@
-# Ransomware
-
-## Drive-by Attacks

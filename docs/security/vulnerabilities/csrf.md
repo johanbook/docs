@@ -31,5 +31,5 @@ it in a custom HTTP header (typically `X-CSRF-TOKEN`).
 
 ## SameSite cookies
 
-By using the `SameSite` attribute in authentication [cookies](cookies) it
-impedes these attacks as cookies are not included CORS requests.
+By using the `SameSite` attribute in authentication cookies it impedes these
+attacks as cookies are not included CORS requests.

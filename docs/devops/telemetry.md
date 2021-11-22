@@ -1,6 +1,7 @@
 # Telemetry
 
-Telemetry can be used to monitor a system.
+**Telemetry** is art of monitoring a live system. It is crucial in order to
+improve performance and troubleshoot problems.
 
 ## MELT
 

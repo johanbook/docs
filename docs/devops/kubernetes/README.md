@@ -44,8 +44,3 @@ This is sometimes referred to as the control plane.
 Namespaces are an efficient way of organizing components. This stops e.g. name
 clashes to cause component overriding. Resources can also be limited on a
 namespace level.
-
-## See also
-
-- [Components](./components.md)
-- [Storage](./storage.md)

@@ -1,8 +1,8 @@
 # Graphs
 
-A graph consist of several nodes which are linked to each other by references,
-similar to a linked list except each node might be connected to several other
-nodes.
+A **graph** consist of several nodes which are linked to each other by
+references, similar to a linked list except each node might be connected to
+several other nodes.
 
 ## Types
 

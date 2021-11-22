@@ -13,4 +13,4 @@ XML documents.
 ## Other
 
 There is a security vulnerability known as
-[XXE](/docs/security/vvulnerabilities/xxe.md).
+[XXE](../../security/vulnerabilities/xxe).

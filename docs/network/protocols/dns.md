@@ -1,7 +1,7 @@
 # Domain Name System
 
 In order to communicate with another device, such as a website, one needs to
-know the target's [IP address](ip_address), however, this has several
+know the target's [IP address](../ip_address), however, this has several
 difficulties:
 
 - The target's IP address might change (e.g. it can be served by a machine on

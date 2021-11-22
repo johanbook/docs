@@ -7,9 +7,15 @@ depends on the domain of the data.
 
 There are various techniques: wrangling, Extract Transform Load (ETL).
 
+## Gathering
+
+Data needs to be gathered. This can be done e.g. manually or semi-automatically.
+
 ## Annotation
 
-## Gathering
+Commonly one needs to annotate the data, meaning one adds additional
+information. For [object detection](./object_detection) one would draw bounding
+boxes and specify target classes for each box.
 
 ## Cleaning
 

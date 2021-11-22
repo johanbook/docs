@@ -1,32 +1,65 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "description": "",
+  "description": "My comp sci docs",
+  "main": "index.js",
   "scripts": {
-    "start:dev": "docsify serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages --branch pages -d build",
+    "format": "prettier --prose-wrap always --write docs/*.md docs/**/*.md",
+    "release": "standard-version",
+    "prestart": "react-env",
+    "start": "node server.js",
+    "start:dev": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
     "prepare": "husky install"
   },
+  "author": "Johan Book",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johanbook/docs.git"
   },
-  "author": "Johan Book",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://johanbook.com/docs",
   "bugs": {
     "url": "https://github.com/johanbook/docs/issues"
   },
-  "homepage": "https://github.com/johanbook/docs#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "**/*.{js,md}": [
-      "prettier --write --prose-wrap always"
+    "docs/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --prose-wrap always --write"
     ]
   },
   "devDependencies": {
-    "husky": "^7.0.0",
-    "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2"
+    "@docusaurus/core": "2.0.0-beta.9",
+    "@docusaurus/preset-classic": "2.0.0-beta.9",
+    "@mdx-js/react": "^1.6.21",
+    "@svgr/webpack": "^5.5.0",
+    "clsx": "^1.1.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.0.5",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3",
+    "standard-version": "^9.3.1",
+    "url-loader": "^4.1.1"
   },
   "dependencies": {
-    "docsify-cli": "^4.4.3"
+    "hast-util-is-element": "^1.1.0",
+    "rehype-katex": "^4.0.0",
+    "remark-math": "^3.0.1"
   }
 }
