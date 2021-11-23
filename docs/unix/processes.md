@@ -1,4 +1,4 @@
-# Unix child processes
+# Processes
 
 In Unix there is a concept of **processes**. All processes have one parent
 except for the top-most process (aka the **init process**).

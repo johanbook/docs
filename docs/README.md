@@ -1,5 +1,5 @@
 ---
-id: Home
+id: Book's docs
 sidebar_position: 1
 slug: /
 ---
