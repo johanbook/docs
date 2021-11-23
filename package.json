@@ -58,6 +58,7 @@
     "url-loader": "^4.1.1"
   },
   "dependencies": {
+    "@cmfcmf/docusaurus-search-local": "^0.6.7",
     "hast-util-is-element": "^1.1.0",
     "rehype-katex": "^4.0.0",
     "remark-math": "^3.0.1"

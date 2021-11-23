@@ -17,6 +17,19 @@ const config = {
   organizationName: "docs",
   projectName: "docs",
 
+  plugins: [
+    [
+      // Seach plugin: https://github.com/cmfcmf/docusaurus-search-local
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        docsRouteBasePath: "/",
+        indexBlog: false,
+        indexPages: true,
+        indexDocSidebarParentCategories: 2,
+      },
+    ],
+  ],
+
   presets: [
     [
       "@docusaurus/preset-classic",
