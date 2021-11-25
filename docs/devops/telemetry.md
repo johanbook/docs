@@ -25,3 +25,8 @@ Traces are request traces.
 
 One typically wants a centralized logging solution. For larger systems one
 should also have backups.
+
+## Practices
+
+Apps should log to stdout and stderr and let orchestration layer handle these
+logs. Preferably in JSON or Syslog.

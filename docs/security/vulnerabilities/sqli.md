@@ -27,6 +27,9 @@ one gets a server error there might be a vulnerability.
 
 Note that this might change depending on what database language is used.
 
+There are also tools such as `sqlmap` that can detect SQLI and from there
+inspect the underlying database.
+
 ## Second Order Injection
 
 A second order injection is when e.g. a username with unescaped characters is
