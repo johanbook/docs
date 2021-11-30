@@ -1,15 +1,15 @@
 # Social Engineering
 
 **Social Engineering** is a form of hacking where on convinces a user to
-willingly hand over some desired information.
-
-Purpose is stealing information, hack systems or desinformation.
+willingly hand over some desired information. Purpose is often stealing
+information, hack systems or desinformation.
 
 If someone gives us something then we will be wanting to give something back.
 
 ## OSINT
 
-Gather information using public sources.
+**Open-source Intelligence** (**OSINT**) is the gathering of information using
+public sources.
 
 ## Illicitation
 
@@ -27,6 +27,8 @@ Gather information using public sources.
 - Tailgating
 
 ## OPINT
+
+OPINT is the physical version of OSINT. Some examples are
 
 - Dumpster diving or trash cans
 - Read papers on tables

@@ -1,5 +1,8 @@
 # Identity and Access Management
 
+**Identity and Access Management** (**IAM**) is management of authorization and
+authentication.
+
 ## Realm
 
 A realm is a circle of trust in where each service trusts each other.

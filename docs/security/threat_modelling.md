@@ -1,6 +1,6 @@
 # Threat modelling
 
-Some models
+In order to counter threats one not to have some **threat modelling**.
 
 ## STRIDE
 
