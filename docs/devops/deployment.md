@@ -1,7 +1,10 @@
 # Deployment
 
-Once an application is ready for production it is time for deployment. There are
-various different deployment strategies, but here is an overview of a few
+Once an application is ready for production it is time for deployment. First we
+need to consider if we need an active server or we are interested in deploying
+only static files (which would be the case when deploying a webpage).
+
+There are different deployment strategies, but here is an overview of a few
 different ones.
 
 ## Linux server
@@ -42,9 +45,10 @@ images and does load balancing, handling worker nodes and all for you.
 
 Serverless means that one has no specific dedicated server but rather a pool of
 resources. A task is handled as a job that is queued and given to a machine once
-available. This adds a risk for overhead.
+available. This adds a risk for overhead but one only pays for the actual usage.
+It's also more scalable.
 
-## Strategies
+## Deployment strategies
 
 - Canary
 - Blue/Green
