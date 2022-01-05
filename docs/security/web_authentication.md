@@ -1,7 +1,8 @@
 # Web Authentication
 
 In this document, I will discuss authentication approaches for a system based on
-[HTTP](../network/protocols/http/README) that is to be accessed from a web browser.
+[HTTP](../network/protocols/http/README) that is to be accessed from a web
+browser.
 
 Considering that HTTP is a stateless protocol, each request must contain one or
 several secrets to be authenticated and authorized. This information can live

@@ -1,10 +1,13 @@
 # Testing
 
-In order to have confidence in that the code we write works as expected, it's a
-good practice to write tests. The most basic test is to just execute a function
-(or instantiate an object) and then check that the result is as expected.
+In order to have confidence in that the code we write works as expected, we
+should write tests. The most basic test is to just execute a function (or
+instantiate an object) and then check that the result is as expected.
 
-A typical test is structured as setup, interaction and assertions.
+## The anatomy of a test
+
+In general, a test consist of setup, interaction and assertions, as demonstrated
+by the code below.
 
 ```py
 def test_my_function_returns_numbers():
@@ -14,7 +17,7 @@ def test_my_function_returns_numbers():
   # Interaction
   value = my_function(1)
 
-  # Run
+  # Assertions
   assert type(value) is int
   assert value == 2
 ```
@@ -25,10 +28,17 @@ Tests can be divided into several different categories.
 
 ### Unit Tests
 
-A unit test should test one aspect / functionality of an object **and nothing
-more**. Unit tests should be fast and any time-consuming or external processes
-are typically mocked. You typically end up with very many unit tests but as long
-as tests are useful, then the more the better.
+A unit test tests one aspect / functionality of an object and nothing more. Unit
+tests should be fast and any time-consuming or external processes are typically
+mocked. You typically end up with many unit tests but as long as tests are
+useful, then the more the better.
+
+### End-To-End Tests
+
+An end-to-end test (or e2e test for short) tests a system the exact same way an
+end user would interact with it. For example, if the service consists of a stack
+with a frontend UI one needs to spin up a scripted browser and run tests from
+there.
 
 ### Integration Tests
 
@@ -39,16 +49,10 @@ that login works. The different between integration tests and end-to-end tests
 is that integration tests do not require spinning up the whole system and one
 can use mocks.
 
-### End-To-End Tests
+## Tools
 
-An end-to-end test (or e2e test for short) tests a system the exact same way an
-end user would interact with it. For example, if the service consists of a stack
-with a frontend UI one needs to spin up a scripted browser and run tests from
-there.
-
-## Components
-
-Here are some useful component types for testing:
+In order to create efficient tests, one need a set of different tools, typically
+including:
 
 - **Test runner** (e.g. jest, mocha, pytest) is a program responsible for
   finding tests and executing them.
@@ -74,8 +78,8 @@ graphs/images for automated visual comparison or comparing HTML documents.
 
 ### Spies
 
-One can spy on an object or function to how it's called but keeping the
-implementation intact.
+One can spy on an object or function to how it is called but without altering
+its implementation.
 
 ### Stub
 
