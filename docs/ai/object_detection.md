@@ -1,6 +1,6 @@
 # Object detection
 
-In computer vision, **Object detection** is when one detects objects with
+ **Object detection** is when one detects objects with
 bounding boxes in video and images.
 
 ## IoU

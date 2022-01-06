@@ -20,4 +20,4 @@ container will resolve to host details. If the container is Linux-based, try
 
 The docker engine also works as a [DNS server](../network/protocols/dns)
 allowing one to resolve container names to [IP addresses](../network/ip_address)
-within the network.
+within the network. This is called **automatic service discovery**.

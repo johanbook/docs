@@ -1,4 +1,4 @@
-# Internet Protocol
+# IP
 
 The **Internet Protocol** (**IP**) is a protocol for delivering data from one
 computer to another. It accomplishes this by dividing the data into small

@@ -11,6 +11,6 @@ covered by tests.
 
 ## Dynamic configuration
 
-Dynamic configurations on the other hand are typically set in an application
+Dynamic configurations on the other hand are typically set at application
 runtime. This means that the configurations might not be covered by test and
-faulty configurations might bring down the application.
+faulty configurations might bring the application down.

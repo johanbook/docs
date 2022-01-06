@@ -1,6 +1,6 @@
 # Data
 
-In order to build any model one needs data. However, before starting the
+Data is crucial for any form of modelling. However, before starting the
 modelling process you need to prepare the data. This involves various different
 stages, which will be outlined in this document. Which stages that are relevant
 depends on the domain of the data.

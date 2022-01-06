@@ -1,7 +1,8 @@
 # SMB
 
-**Server Message Block** (**SMB**) is a protocol that can be used for e.g.
-printers. One common software for using SMB is Samba.
+**Server Message Block** (**SMB**) is a [TCP](./tcp) protocol for interacting
+with shared network resources, such as printers. One common software for using
+SMB is Samba.
 
 ## Enumeration
 

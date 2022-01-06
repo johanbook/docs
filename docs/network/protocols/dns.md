@@ -1,8 +1,9 @@
-# Domain Name System
+# DNS
 
-In order to communicate with another device, such as a website, one needs to
-know the target's [IP address](../ip_address), however, this has several
-difficulties:
+**Domain Name Resolution** (**DNS**) is a protocol for resolving domain names to
+IP addresses. DNS services are typically served on port 53.
+
+DNS is needed since
 
 - The target's IP address might change (e.g. it can be served by a machine on
   another network).
@@ -37,7 +38,7 @@ records. Some common record types are
 
 ## DNSSEC
 
-DNSSEC stands for DNS Security Extensions is a suite of extensions that aim to
+**DNS Security Extensions** (**DDNSSEC**) is a suite of extensions that aim to
 add some security to the DNS protocol. It can protect against e.g. DNS cache
 poisoning.
 

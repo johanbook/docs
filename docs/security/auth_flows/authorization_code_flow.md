@@ -1,6 +1,6 @@
 # Authorization Code Flow
 
-The Authorization Code Flow is an OAuth flow.
+The **Authorization Code Flow** is an OAuth flow.
 
 ## Flow
 
