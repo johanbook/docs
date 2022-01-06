@@ -34,7 +34,8 @@ chmod 400 <file>
 Where
 
 - **0** is no permission
-- **1** is execute (`x`)
+- **1** is execute (`x`). For directories this means being able to searching its
+  content.
 - **2** is write (`w`)
 - **4** is read (`r`)
 

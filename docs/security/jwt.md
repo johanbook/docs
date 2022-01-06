@@ -1,4 +1,4 @@
-# JSON Web Token
+# JWT
 
 A **JSON Web Token** (**JWT**) is a [JSON](../programming/data_formats/json)
 encoded string that contains one or several claims. JWTs are signed and can be
