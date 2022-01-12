@@ -1,13 +1,12 @@
-# Web Authentication
+# Web authentication
 
-In this document, I will discuss authentication approaches for a system based on
-[HTTP](../network/protocols/http/README) that is to be accessed from a web
-browser.
-
-Considering that HTTP is a stateless protocol, each request must contain one or
-several secrets to be authenticated and authorized. This information can live
-either in the HTTP headers (or cookies) or in its body. Of these options using
-the HTTP headers / cookies are the most.
+**Web authentication** typically works differently than e.g. API/CLI
+authentication as one can rely on the mechanisms of web browsers. Web
+authentication will take place over [HTTP(S)](../network/protocols/http/README).
+Considering that HTTP is a stateless protocol, each request often must contain
+one or several secrets to be authenticated and authorized. This information can
+live either in the HTTP headers (or cookies) or in its body. Of these options
+using the HTTP headers / cookies are the most.
 
 ## Cookies
 
