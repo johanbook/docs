@@ -27,12 +27,16 @@ The **CIA** triad is a data-centric framework for modelling threats.
 
 **STRIDE** is a framework for identifying threats. It consists of
 
-- **Spoofing** Authenticity
-- **Tempering**
-- **Repudiation**
-- **Information disclosure**
-- **Denial of Service**
-- **Elevation of Privilege**
+- **Spoofing** is claiming to be something that you are not. It compromises
+  authenticity. One example is CSRF.
+- **Tempering** is changing some data. This comromises integrity.
+- **Repudiation** is claiming an action never took place. Violates
+  non-repudiation. One example would be altering system logs.
+- **Information disclosure** is access to confidential information. Compromises
+  confidentiality.
+- **Denial of Service** is bring the service down. Compromises availability.
+- **Elevation of Privilege** is performing unauthorized actions through
+  privilege escalation.
 
 ## LINDDUN
 
