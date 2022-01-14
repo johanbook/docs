@@ -1,7 +1,7 @@
 # Object detection
 
- **Object detection** is when one detects objects with
-bounding boxes in video and images.
+**Object detection** is when one detects objects with bounding boxes in video
+and images.
 
 ## IoU
 

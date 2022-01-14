@@ -5,8 +5,8 @@ feedback loop developers might lose focus. Things that create short feedback
 loops are:
 
 - **Fast tests** Expensive operations should be mocked. If testing expensive
-  operations they should have their own test suit that can run in a remote [CI/CD](../devops/ci_cd)
-  pipeline.
+  operations they should have their own test suit that can run in a remote
+  [CI/CD](../devops/ci_cd) pipeline.
 - **Interactive tests** Developers should be able to run a test watchdog and be
   able to single out tests. This should preferable be integrated on an IDE
   level.

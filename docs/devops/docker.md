@@ -21,3 +21,9 @@ container will resolve to host details. If the container is Linux-based, try
 The docker engine also works as a [DNS server](../network/protocols/dns)
 allowing one to resolve container names to [IP addresses](../network/ip_address)
 within the network. This is called **automatic service discovery**.
+
+## Logging
+
+Docker uses a JSON logging driver by default that logs to a file
+`/var/lib/docker/containers/<container-id>/<container-id>-json.log` on the host
+system.

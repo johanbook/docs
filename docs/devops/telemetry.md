@@ -28,5 +28,5 @@ should also have backups.
 
 ## Practices
 
-Apps should log to stdout and stderr and let orchestration layer handle these
+Apps should log to STDOUT and STDERR and let orchestration layer handle these
 logs. Preferably in JSON or Syslog.
