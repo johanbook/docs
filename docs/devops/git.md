@@ -1,6 +1,6 @@
 # Git
 
-**Git** is a powerful tool for version control.
+**Git** is a powerful version control system (VCS).
 
 ## Merge strategies
 

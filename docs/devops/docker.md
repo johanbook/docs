@@ -26,4 +26,5 @@ within the network. This is called **automatic service discovery**.
 
 Docker uses a JSON logging driver by default that logs to a file
 `/var/lib/docker/containers/<container-id>/<container-id>-json.log` on the host
-system.
+system. There are also other logging drivers that forward logs to third party services for
+log analysis.
