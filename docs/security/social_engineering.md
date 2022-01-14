@@ -1,4 +1,4 @@
-# Social Engineering
+# Social engineering
 
 **Social Engineering** is a form of hacking where on convinces a user to
 willingly hand over some desired information. Purpose is often stealing
