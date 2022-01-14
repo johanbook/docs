@@ -1,4 +1,4 @@
-# Service Mesh
+# Service mesh
 
 A **Service Mesh** is an infrastructure layer that is responsible for service
 discovery and which services as are allowed to communicate with each other. This

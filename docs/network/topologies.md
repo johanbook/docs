@@ -1,4 +1,4 @@
-# Network Topologies
+# Network topologies
 
 Here are some different network topologies.
 
