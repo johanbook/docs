@@ -1,12 +1,13 @@
 # HTTP
 
 **Hyper Text Transport Protocol** (**HTTP**) is a network protocol for
-transferring hypertext over [TCP](../tcp). Hypertext itself is text containing
-hyperlinks, or simply links, that link to other content, typically using the URI
-scheme. The protocol is both stateless and response-request based. All responses
-and requests are encoded in the TCP body. An HTTP connection is established on
-top of TCP and an HTTP status code is received, e.g. `HTTP/1.1 200 OK`. HTTP
-itself is a stateless protocol (which suits well with REST).
+transferring text over [TCP](../tcp). It was originally conceived for
+transferring hypertext (text containing [URI](../../url) hyperlinks). The
+protocol itself is stateless and response-request-based. All responses and
+requests are encoded in the TCP body. An HTTP connection is established on top
+of TCP and an HTTP status code is received, e.g. `HTTP/1.1 200 OK`. It is
+typically used to serve [HTML](../../../programming/data_formats/html) and host
+external APIs.
 
 An example request can look like this
 
@@ -62,27 +63,7 @@ HTTP used different _verbs_ for request purpose. The allowed verbs are:
 
 ## HTTPS
 
-HTTPS is an encrypted variant of HTTP using TLS (not there is also mTLS for
-mutual authentication).
-
-### TLS
-
-TLS is the encryption protocol (that succeeds SSL).
-
-#### TLS Handshake
-
-When client establishes connection to server, the server responds with its SSL
-certificate containing its public key. Client generates premaster secret
-encrypted with the server's public key and sends to server. Both client and
-server can then generate the same symmetric key, which will be used during the
-session.
-
-The SSL certificates are issued by a Certificate Authority (CA) and can verify
-that the public key is authentic.
-
-### SSL Termination
-
-SSL termination is the point where HTTPS is decrypted to HTTP.
+HTTPS is an encrypted variant of HTTP using [TLS](../tls/README) .
 
 ## Encodings
 
@@ -134,18 +115,3 @@ ein zwei drai
 
 Each boundary separated section starts with headers on its own, where
 `Content-Disposition` states e.g. field name.
-
-## CORS
-
-Cross Origins Resource Sharing (CORS) is a policy that cross origin requests are
-blocked by the web browser unless the server explicitly allows the origin in a
-`Access-Control-Allow Origin` header. This is a security feature as the browser
-can not trust that requests from scripts are intended by the user (and many such
-requests would also by authenticated due to cookie being sent along with the
-request).
-
-A server can allow CORS from all origins by adding this header to its responses:
-
-```txt
-Access-Control-Allow-Origin: *
-```

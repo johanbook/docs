@@ -1,6 +1,9 @@
 # SSH
 
-**Secure SHell** (**SSH**) is shell that is run over TCP.
+**Secure SHell** (**SSH**) is a cryptographic [TCP](./tcp) shell typically
+running on port 22. SSH uses
+[public key encryption](../../security/cryptography/encryption), where RSA is
+common.
 
 ## Configuring SSH
 
@@ -14,6 +17,12 @@ Upload the public key (the one with the `.pub` extension). Create a
 `~/.ssh/config` file and add
 
 ```sh
-Host <host>
+Host <name>
+	HostName <hostname>
   IdentityFile <path-private-key>
 ```
+
+## Best practices
+
+It is recommended to run SSH on a non-default high-numbered port to avoid
+automatic scans and exploits.

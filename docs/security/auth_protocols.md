@@ -13,8 +13,8 @@ First let's introduce some terminology:
 
 ## SAML
 
-Security Assertion Markup Language (SAML) is an **authentication and
-authorization** standard. In SAML there are
+**Security Assertion Markup Language** (**SAML**) is an authentication and
+authorization standard. In SAML there are
 
 - **User Agent (UA)** Typically the user's web browser.
 - **Service Provider (SP)** The service that we want to access.
@@ -25,14 +25,15 @@ The service provider must trust the identity provider.
 When the UA interacts with the IDP it creates a SAML assertion which is sent to
 the UA which in turn sends it to the SP.
 
-The configurations often reside in an XML file.
+The configurations often reside in an [XML](../programming/data_formats/xml)
+file.
 
 SAML was not initially designed for the web and has been retrofitted for it
 afterwards. It is also quite verbose.
 
 ## OAuth
 
-OAuth is an **authorization protocol** where the authorization is provided by an
+**OAuth** is an authorization protocol where the authorization is provided by an
 **identity provider**. This alleviates the client site from storing any user
 passwords. It also constitutes the magic behind social logins.
 
@@ -52,7 +53,7 @@ To accomplish this, two kinds of tokens are introduced;
 
 ## OpenID
 
-OpenID is an **authentication protocol** that uses an identity provider.
+**OpenID** is an authentication protocol that uses an identity provider.
 
 ### OpenID Connect
 

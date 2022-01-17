@@ -1,4 +1,4 @@
-# Identity and Access Management
+# IAM
 
 **Identity and Access Management** (**IAM**) is management of authorization and
 authentication.

@@ -1,7 +1,7 @@
 # Buffer Overflow
 
-Buffer overflow is a vulnerability where the buffer of one entity overflows into
-another. This vulnerability is most prevalent in languages where memory
+**Buffer overflow** is a vulnerability where the buffer of one entity overflows
+into another. This vulnerability is most prevalent in languages where memory
 allocation is explicitly handled by the user, such as C and C++. Buffer overflow
 can be used for binary exploitation.
 
