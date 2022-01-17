@@ -1,5 +1,5 @@
 # DNS Cache Poisoning
 
-DNS resolvers cache DNS queries to improve performance. That cache can be
-poisoned by an attacker if the attacker both issues a queries and sends a
+**DNS Cache Poisoning** is when an attacker inserts malicious records into a DNS
+cache. This can be accomplished by an attacker issues a DNS query and sends a
 response impersonating an authoritative nameserver.

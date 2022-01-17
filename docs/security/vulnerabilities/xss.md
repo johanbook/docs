@@ -1,4 +1,4 @@
-# Cross Site Scripting
+# XSS
 
 **Cross site scripting** (**XSS**) is an attack where one runs a script
 (typically JavaScript) in another user's browser. This can happen if user inputs
