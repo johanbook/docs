@@ -1,4 +1,4 @@
-# Text Encoding
+# Text encoding
 
 There are different ways to encode text.
 
