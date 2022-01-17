@@ -1,7 +1,6 @@
-# Various concepts
+# Basics
 
-This document will explain some concepts one might encounter in software
-development.
+These are some useful concepts.
 
 ## First-class functions
 
@@ -28,7 +27,7 @@ change to `s1`.
 
 ## Idempotence
 
-Idempotence is the mathematical concept. Consider the function $f$ and its
+Idempotence is a mathematical concept. Consider the function $f$ and its
 composite $f \circ f$, then it is idempotent if $f \circ f (x) = f(x)$.
 Statements can be idempotent. Variable assignments are an typical example of
 this. Another example is GET and PUT in the HTTP methods (while POST and DELETE
@@ -41,9 +40,8 @@ This does introduce a processing-memory trade-of.
 
 ## DRY
 
-One important concept in programming is DRY (Don't Repeat Yourself). This gives
-minimal code that is easier to maintain. One can even say 'please make this code
-dry'.
+**DRY** is an acronym that stands for **Don't Repeat Yourself**. This gives
+minimal code that is easier to maintain.
 
 ## Strings
 

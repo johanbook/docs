@@ -1,6 +1,6 @@
-# Feedback Loop
+# Feedback loop
 
-The feedback loop is an important factor during development. With a too long
+The **feedback loop** is an important factor during development. With a too long
 feedback loop developers might lose focus. Things that create short feedback
 loops are:
 
