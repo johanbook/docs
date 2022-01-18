@@ -7,9 +7,9 @@ encoded they are also URL-safe.
 
 ## Structure
 
-A JWT consists of three parts delimited by periods. It has a header, payload
-(claims) and a signature. The header contains algorithm and token type. The
-payload can be something like
+A JWT consists of three base64 encoded JSON parts delimited by periods. It has a
+header, payload (claims) and a signature. The header contains algorithm and
+token type. The payload can be something like
 
 ```js
 {
@@ -18,6 +18,8 @@ payload can be something like
   iat: 14328 // issued at
 }
 ```
+
+A JWT section can be identified by the prefix `eyJ` which is an encoding of `{"`.
 
 ## Security
 

@@ -13,6 +13,8 @@ There are different **status codes** in the [HTTP protocol](./README).
 ## 300 - Redirects
 
 - **301** Resource has been moved permanently.
+- **304** Resource has been modified and cached version can be used. This can be
+  used in conjunction with [ETags](./etag).
 
 ## 400 - Client errors
 
