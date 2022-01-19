@@ -4,7 +4,10 @@ sidebar_position: 1
 slug: /
 ---
 
-These are my personal wikis on various computer related topics.
+Welcome to Book's docs! Here you will find my personal wikis on all kinds of
+computer related topics.
+
+## Something missing?
 
 If something is incorrect or could be improved, open an issue in
-[this repo](https://github.com/johanbook/docs).
+[here](https://github.com/johanbook/docs/issues).

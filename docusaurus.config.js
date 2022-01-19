@@ -39,6 +39,7 @@ const config = {
           rehypePlugins: [katex],
           remarkPlugins: [math],
           routeBasePath: "/",
+          showLastUpdateTime: true,
           sidebarPath: require.resolve("./sidebars.js"),
         },
         theme: {},

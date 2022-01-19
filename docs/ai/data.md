@@ -1,15 +1,20 @@
 # Data
 
-Data is crucial for any form of modelling. However, before starting the
-modelling process you need to prepare the data. This involves various different
-stages, which will be outlined in this document. Which stages that are relevant
-depends on the domain of the data.
+**Data** is crucial for any form of modelling. There are several phases to
+obtain quality data. Which exact phases are needed depends on the domain of the
+data.
 
 There are various techniques: wrangling, Extract Transform Load (ETL).
 
+## Governance
+
+**Data governance** is policies for how data can be collected, stored, processed
+and procedure for disposal.
+
 ## Gathering
 
-Data needs to be gathered. This can be done e.g. manually or semi-automatically.
+First step is collect the data. This can be done e.g. manually or
+semi-automatically.
 
 ## Annotation
 
@@ -19,8 +24,5 @@ boxes and specify target classes for each box.
 
 ## Cleaning
 
-Do an Exploratory Data Analysis (EDA) to see what cleaning is needed to be done.
-
-## Governance
-
-Is is important mkey?
+The gathered data is often dirty and needs to be cleaned. Then one does an
+**Exploratory Data Analysis** (**EDA**) to see needs to be done.
