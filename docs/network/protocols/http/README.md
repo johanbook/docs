@@ -53,8 +53,8 @@ HTTP used different _verbs_ for request purpose. The allowed verbs are:
 - **DELETE** Delete a resource.
 - **GET** Get a resource.
 - **HEAD** Get resource headers only. Useful to e.g. validate a cached resource.
-- **OPTIONS** Checks what HTTP verbs a server supports, what CORS policy it has,
-  etc. Used in preflighted requests.
+- **OPTIONS** Checks what HTTP verbs a server supports, what [CORS](./cors)
+  policy it has, etc. Used in preflighted requests.
 - **PATCH** Modify a resource.
 - **POST** Create a resource.
 - **PUT** Replace a resource.

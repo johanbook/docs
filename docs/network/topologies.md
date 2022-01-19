@@ -1,6 +1,6 @@
 # Network topologies
 
-Here are some different network topologies.
+There are different topologies for how a network can be setup. Here are a few.
 
 ## Ring topology
 
