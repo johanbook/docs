@@ -1,6 +1,6 @@
 # SMTP
 
-**Simple Mail Transfer Protocol** (**SMTP**) is a stateful protocol for mail
+**Simple Mail Transfer Protocol** (**SMTP**) is a stateful protocol for email
 exchange.
 
 ## Commands

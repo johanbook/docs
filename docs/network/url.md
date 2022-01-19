@@ -3,14 +3,14 @@
 A **Uniform Resource Locator** (**URL**) is an address to some resource. It also
 includes information on how that resource should be accessed (via its protocol).
 
-Consider the URL `http://localhost:8080/alpha?bravo=charlie#delta`. It consists
-of several parts;
+The URL `http://localhost:8080/alpha?bravo=charlie#delta` consists of the parts;
 
 - **schema** (`http`), also known as protocol. It specifies how the resource
   should be accessed.
 - **host** (`localhost`), also known as hostname. In terms of DNS, this
   corresponds to the domain.
-- **port** (`8080`), the port (if any) the resource can be found at.
+- **port** (`8080`), the port the resource can be found at. If omitted protocol
+  default port is used.
 - **path** (`/alpha`)
 - **query** (`?bravo=charlie`) is key-value pairs data. There is not agreed on
   standard on how exactly the data should be represented (especially for nested
