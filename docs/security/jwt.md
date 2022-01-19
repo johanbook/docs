@@ -19,7 +19,8 @@ token type. The payload can be something like
 }
 ```
 
-A JWT section can be identified by the prefix `eyJ` which is an encoding of `{"`.
+A JWT section can be identified by the prefix `eyJ` which is an encoding of
+`{"`.
 
 ## Security
 

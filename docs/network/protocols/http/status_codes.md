@@ -9,10 +9,15 @@ There are different **status codes** in the [HTTP protocol](./README).
 ## 200 - Successes
 
 - **200** is a success.
+- **201** the resource was created.
+- **204** same as a 200 but the request contains no content. I use this status
+  code for most successes.
 
 ## 300 - Redirects
 
 - **301** Resource has been moved permanently.
+- **302** the resource can be found temporarily at location specified in the
+  `Location` header.
 - **304** Resource has been modified and cached version can be used. This can be
   used in conjunction with [ETags](./etag).
 

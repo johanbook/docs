@@ -16,3 +16,7 @@ upper bound on network size.
 A Ipv4 subnet mask consists of four bytes, often separated by dots when printed.
 The purpose of a subnet mask is to show which part of an IP address that targets
 a network and which targets a device.
+
+## CIDR notation
+
+CIDR is a notation for specifying a range of IP addresses.
