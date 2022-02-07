@@ -55,7 +55,9 @@ HTTP used different _verbs_ for request purpose. The allowed verbs are:
 - **HEAD** Get resource headers only. Useful to e.g. validate a cached resource.
 - **OPTIONS** Checks what HTTP verbs a server supports, what [CORS](./cors)
   policy it has, etc. Used in preflighted requests.
-- **PATCH** Modify a resource.
+- **PATCH** Modify a resource. In contrast to `POST` and `PUT` where one needs
+  supply the full resource specification, it is sufficient to use a partial in
+  `PATCH`.
 - **POST** Create a resource.
 - **PUT** Replace a resource.
 - **TRACE** Returns incoming request as response body. Useful for debugging but
