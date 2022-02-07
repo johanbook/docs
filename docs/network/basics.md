@@ -13,6 +13,7 @@ Here is some basic terminology;
 
 - **LAN** A Local Area Network is a network connected to a gateway / router.
 - **WAN** A Wide Area Network consists of several LANs.
+- **Overlay** A virtual network running on top of another network.
 
 Other:
 
