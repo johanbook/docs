@@ -45,7 +45,7 @@ extremely dangerous as exploits might already be common knowledge.
 ## 10 - Insufficient Logging And Monitoring
 
 Attackers can go undetected. If detected it is more difficult to do any damage
-control. See the [docs on telemetry](../devops/telemetry) on how logging and
-monitoring should be done.
+control. See the [docs on telemetry](../devops/monitoring/telemetry) on how
+logging and monitoring should be done.
 
 The average time for detecting a breach is 200 days.
