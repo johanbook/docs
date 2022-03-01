@@ -1,29 +1,19 @@
 # DNS
 
 **Domain Name Resolution** (**DNS**) is a protocol for resolving domain names to
-IP addresses. DNS services are typically served on port 53.
+[IP addresses](../ip_address). DNS services are typically served on port 53.
 
-DNS is needed since
+## Look up process
 
-- The target's IP address might change (e.g. it can be served by a machine on
-  another network).
-- IP addresses are very difficult to parse and remember to humans.
-
-To address these weaknesses, one introduced a system to associate names to the
-IP addresses, such as `https://my-website.com` corresponds to
-`https://127.0.0.1`. This name resolution is handled by a DNS server, which a
-machine one can connect to in order look up a domain name (that process is
-called a NS lookup).
-
-## Look up
-
-First the root DNS is queried, then the TLD (Top-Level Domain), then then the
-domain and then the subdomain and so on.
+When a computer does a DNS lookup, it will send a request to the configured DNS.
+This is often a name server handled by one's ISP. If the query is not cached
+there, this name server will query a root DNS, which in turns queries TLD
+(Top-Level Domain) servers.
 
 ## Record Types
 
-A DNS provider has a list of different records. There are different types of
-records. Some common record types are
+The DNS protocol features different records that has different functionality.
+Some common record types are
 
 - **A** Points to an IPv4 address.
 - **AAAA** Points to an IPv6 address.
@@ -38,8 +28,8 @@ records. Some common record types are
 
 ## DNSSEC
 
-**DNS Security Extensions** (**DDNSSEC**) is a suite of extensions that aim to
-add some security to the DNS protocol. It can protect against e.g. DNS cache
-poisoning.
+**DNS Security Extensions** (**DNSSEC**) is a suite of extensions that aim to
+add some security to the DNS protocol. It can protect against e.g.
+[DNS cache poisoning](../../security/vulnerabilities/dns_poisoning).
 
 DNSSEC relies on a chain of trust as each domain is signed.

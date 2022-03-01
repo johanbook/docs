@@ -1,9 +1,9 @@
 # DHCP
 
-**Dynamic Host Configuration Protocol** (**DHCP**) is a protocol for dynamically
-assign IP addresses. A device gets an IP from a DHCP server. Can also assign
-DNS, default gateway and network mask. IP addresses are given as time-limited
-leases.
+**Dynamic Host Configuration Protocol** (**DHCP**) is a client-server protocol
+for dynamically assigning [IP addresses](../ip_address). The DHCP server will
+also supply a DNS address, default gateway and network mask. IP addresses are
+given as time-limited leases.
 
 For example, one can run a DHCP query using the network utility `nmap` as done
 below.
@@ -27,6 +27,9 @@ Nmap done: 0 IP addresses (0 hosts up) scanned in 11.32 seconds
 ```
 
 ## Handshake
+
+When a client attempts to lease an IP there is a handshake with the following
+steps:
 
 1. **DHCP Discover** The client requests an IP from any device on the network.
 2. **DHCP Offer** The host offers it an IP address.
