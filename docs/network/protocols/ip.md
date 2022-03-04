@@ -2,9 +2,9 @@
 
 The **Internet Protocol** (**IP**) is a protocol for transferring data over a
 network. The data is chunked into small packages, each containing a header with
-target [IP address](../ip_address). Each package is forwarded through the optimal route for the
-network and arrives at its destination, but not necessarily in the original
-order (which is added in [TCP](tcp)).
+target [IP address](../ip_address). Each package is forwarded through the
+optimal route for the network and arrives at its destination, but not
+necessarily in the original order (which is added in [TCP](tcp)).
 
 The computers that are part of a network can see all data being transmitted over
 the network. Hence, when wanting to transmitting themselves it is possible that
