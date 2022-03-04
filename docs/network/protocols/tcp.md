@@ -1,8 +1,9 @@
 # TCP
 
 **Transmission Control Protocol** (**TCP**), also known as TCP/IP, is a protocol
-built on top of the [IP protocol](./ip) and supports bidirectional communication
-(in contrast to [UDP](./udp)). It guarantees that data arrives in order.
+built on top of the [IP protocol](./ip) that supports bidirectional
+communication (in contrast to [UDP](./udp)). It guarantees that data arrives in
+order.
 
 ## Sequence numbers
 

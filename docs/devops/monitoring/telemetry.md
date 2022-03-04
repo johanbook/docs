@@ -6,27 +6,17 @@ attacks.
 
 ## MELT
 
-One important concept is **MELT**, is **Metrics, Events, Logs and Traces**.
+Monitoring can be divided into **Metrics, Events, Logs and Traces** (**MELT**).
 
-## Logging
+### Logs
 
 Logs are events logs. One should typically add a correlation id to requests
 incoming to the stack.
 
-## Monitoring
+### Metrics
 
 Metrics are recorded performance values.
 
-## Tracing
+### Tracing
 
 Traces are request traces.
-
-## Architecture
-
-One typically wants a centralized logging solution. For larger systems one
-should also have backups.
-
-## Practices
-
-Apps should log to STDOUT and STDERR and let orchestration layer handle these
-logs. Preferably in JSON or Syslog.
