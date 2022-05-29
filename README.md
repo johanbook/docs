@@ -1,6 +1,6 @@
 # docs
 
-These are my coding docs. They use Docusaurus.
+These are my coding docs. They use [Docusaurus](https://docusaurus.io/).
 
 ## Development
 
@@ -17,4 +17,3 @@ The docs are hosted on Github pages and can be deployed using
 ```sh
 npm run deploy
 ```
-
