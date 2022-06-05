@@ -1,7 +1,8 @@
 # Kernel
 
 The **kernel** is the core of the operating system. It acts as a layer between
-memory, [CPU](../hardware/cpu), devices etc. and the applications that are run.
+memory, [CPU](../hardware/processor/cpu), devices etc. and the applications that
+are run.
 
 ## Virtual file system
 
