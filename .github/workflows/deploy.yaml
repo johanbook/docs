@@ -1,0 +1,38 @@
+name: Build pages
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: "npm"
+
+      - name: Install node dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Build pages
+        run: npm run build
+
+      - name: Setup Git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: Commit files
+        run: |
+          git checkout -b pages
+          rm -rf docs
+          mv build docs
+          git add -f ./docs
+          git commit -m "Add build"
+          git push -f origin pages
