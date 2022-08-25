@@ -47,6 +47,14 @@ const config = {
     ],
   ],
 
+  scripts: [
+    {
+      src: "https://analytics.johanbook.com/js/plausible.js",
+      defer: true,
+      "data-domain": "johanbook.com",
+    },
+  ],
+
   stylesheets: [
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
