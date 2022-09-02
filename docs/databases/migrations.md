@@ -12,16 +12,32 @@ transition, one creates a migration script that contains the necessary commands
 for executing the state change.
 
 Although the migration scripts typically are written in an [ORM](./orm.md), here
-is an example in SQL:
+is an example in SQL. Assume we initially created a table like so:
 
 ```sql
--- Add new table
-CREATE TABLE newTable (id: int);
-
--- Add address to person table
-ALTER TABLE person
-ADD Address varchar(255);
+-- Create initial table
+CREATE TABLE Persons (
+  Id int,
+  Name varchar(255),
+  Address varchar(255)
+);
 ```
+
+Assume, the the need arise to specify last and first name. Then the following
+can be a suitable migration script:
+
+```sql
+-- Add last name to Persons table
+ALTER TABLE Persons
+ADD LastName varchar(255);
+
+-- Rename name to first name
+ALTER TABLE Persons
+RENAME Name TO FirstName;
+```
+
+This obviously has problems with that all names are assumed to be first names, 
+but never the less illustrates the idea.
 
 ## Importing data
 
