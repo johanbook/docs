@@ -7,9 +7,9 @@ schema of an already existing database.
 
 Schema alterations typically happens in conjunction with deploying new versions
 of the software. One approach is to view the database schemas as a state machine
-and database migrations as traversing between different states. For each needed
-transition, one creates a migration script that contains the necessary commands
-for executing the state change.
+and database migrations as transitioning between different states. For each
+needed transition, one creates a migration script that contains the necessary
+commands for executing the state change.
 
 Although the migration scripts typically are written in an [ORM](./orm.md), here
 is an example in SQL. Assume we initially created a table like so:
@@ -33,11 +33,22 @@ ADD LastName varchar(255);
 
 -- Rename name to first name
 ALTER TABLE Persons
-RENAME Name TO FirstName;
+RENAME COLUMN Name TO FirstName;
 ```
 
-This obviously has problems with that all names are assumed to be first names, 
-but never the less illustrates the idea.
+This obviously has problems with that all names are assumed to be first names,
+but never the less illustrates the idea. We typically also want the possibility
+of performing the opposite transition (downgrading). An example of this would be
+
+```sql
+-- Remove last name from Persons table
+ALTER TABLE Persons
+DROP COLUMN LastName;
+
+-- Rename first name to name
+ALTER TABLE Persons
+RENAME COLUMN FirstName TO Name;
+```
 
 ## Importing data
 
