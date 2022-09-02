@@ -33,7 +33,7 @@ A good relational database should have the ACID attributes as stated below.
 ### Indexes
 
 One can index a specific column for faster search speeds in exchange for slower
-writes and more memory consumption. It is useful for e.g caching.
+writes and more memory consumption. Using indexes avoids full-table scans.
 
 ## Non-relational Databases
 
@@ -59,10 +59,3 @@ Some other specialized data bases are:
 - **Time series database** Handles time-series data. Often used for monitoring.
 - **Graph database** Uses a graph model.
 - **Spatial database** For storing spatial data, such as points on a map.
-
-## Deployment
-
-### Shards
-
-The data of a database server can be divided into different shards which can be
-shared across several different databases.
