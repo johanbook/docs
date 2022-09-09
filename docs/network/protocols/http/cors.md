@@ -12,3 +12,15 @@ A server can allow CORS from all origins by adding this header to its responses:
 ```txt
 Access-Control-Allow-Origin: *
 ```
+
+## Preflight
+
+For some CORS requests, a preflight request is sent using the `OPTIONS` ver with
+the `Access-Control-Request-Method`, `Access-Control-Request-Headers`, and
+`Origin` headers.
+
+One can test a preflight request using curl
+
+```sh
+ curl -X OPTIONS -H "Origin: <ORIGIN>" <URL>
+```
