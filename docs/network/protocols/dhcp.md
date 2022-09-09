@@ -5,6 +5,9 @@ for dynamically assigning [IP addresses](../ip_address). The DHCP server will
 also supply a DNS address, default gateway and network mask. IP addresses are
 given as time-limited leases.
 
+For info on how DHCP typically is implemented in Linux, see
+[dhcpd](../../unix/tools/dhcpcd.md).
+
 For example, one can run a DHCP query using the network utility `nmap` as done
 below.
 
