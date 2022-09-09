@@ -5,11 +5,11 @@ like this
 
 ```sh
 [Unit]
-Description=Prometheus exporter for Sensehat
+Description=My program
 
 [Service]
 type=forking
-ExecStart=/usr/bin/python /home/book/sensehat-prometheus-explorer/server.py
+ExecStart=/usr/bin/python /home/guest/my-program.py
 
 [Install]
 WantedBy=multi-user.target

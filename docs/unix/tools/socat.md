@@ -1,7 +1,7 @@
 # Socat
 
-**Socat** is an all-purpose networking tool. To open a [TCP](./protocols/tcp)
-connection run
+**Socat** is an all-purpose networking tool, similar to [Netcat](./netcat.md).
+For example, to open a [TCP](../../network/protocols/tcp) connection run
 
 ```sh
 socat - tcp:localhost:8080
