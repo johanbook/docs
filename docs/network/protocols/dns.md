@@ -33,3 +33,9 @@ add some security to the DNS protocol. It can protect against e.g.
 [DNS cache poisoning](../../security/vulnerabilities/dns_poisoning).
 
 DNSSEC relies on a chain of trust as each domain is signed.
+
+## DNS sinkhole
+
+A DNS sinkhole is a nameserver with a list of disallowed domains. Lookups
+matching these domains are reported as not found. DNS sinkholes can be used for
+blocking ads or specific sites on a network level.
