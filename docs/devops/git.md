@@ -19,3 +19,24 @@ If there are commits on several branches since the last common commit, a 3-way
 merge is suitable. Git will try to decide which lines per file should be used
 and if successful creates a merge commit with the result. The merge commit will
 have multiple parents creating a non-linear history.
+
+## Rebasing
+
+Rebasing can be used to edit the Git history of a repository.
+
+### Changing author of a commit
+
+If needing to change the author of a commit, e.g. if accidentally exposing a
+private email, this can be done on multiple commits using the following command
+
+```sh
+git rebase -i HEAD~1 -x git commit --amend --author "Author Name <EMAIL>" --no-edit
+```
+
+## Rebasing root commit
+
+To rebase the root commit (e.g. initial commit), do
+
+```sh
+git rebase -i --root
+```
