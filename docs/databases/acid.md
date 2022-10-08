@@ -1,6 +1,6 @@
 # ACID
 
-**ACID** is abbreviation for describing desirable properties of a database
+**ACID** is an abbreviation for describing desirable properties of a database
 
 - **Atomicity**. A transaction involving several entities fail all or succeed
   all.
