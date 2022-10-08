@@ -1,8 +1,8 @@
 # Basics
 
-An **Artificial Neural Network** (**ANN**) is a network of nodes where every
-connection can have different strengths. In mathematical terms a single node $y$
-be expressed as
+An **Artificial Neural Network** (**ANN**) is a computational graph, that is a
+network of nodes where every connection can have different strengths. In
+mathematical terms a single node $y$ be expressed as
 
 $$
 y = \phi\left(\sum_i \omega_i x_i\right)
@@ -14,6 +14,7 @@ using an [optimizer](./optimizers).
 
 ## Bayesian Neural Network
 
-In a Bayesian neural network one uses a probability distribution for the weights
-instead of values. This will yield networks that can be sampled but will also
-increase the number of parameters that needs to be trained.
+A **Bayesian neural network** is an ANN that uses a probability distribution for
+the weights instead of point estimates. This will yield networks that can be
+sampled but will also increase the number of parameters that needs to be
+trained.

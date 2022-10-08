@@ -19,8 +19,8 @@ semi-automatically.
 ## Annotation
 
 Commonly one needs to annotate the data, meaning one adds additional
-information. For [object detection](./object_detection) one would draw bounding
-boxes and specify target classes for each box.
+information. For [object detection](./problem_types/object_detection.md) one
+would draw bounding boxes and specify target classes for each box.
 
 ## Cleaning
 
