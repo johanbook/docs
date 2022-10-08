@@ -1,4 +1,4 @@
-# Databases
+# Types of databases
 
 A **database** is a service dedicated to storing and retrieving data. A database
 typically has the following attributes
@@ -14,26 +14,8 @@ Databases are usually divided into relational and non-relational databases.
 ## Relational Databases
 
 A relational database imposes a relational structure on its data. This structure
-is described in schemas. Most relational databases support Structured Query
-Language (SQL).
-
-### ACID
-
-A good relational database should have the ACID attributes as stated below.
-
-- **Atomicity**. A transaction involving several entities fail all or succeed
-  all.
-- **Consistency**. Database is updated directly after a transaction. If there is
-  an error in a transaction, the database will be rolled back. This is in
-  contrast to eventual consistency where a database will update at some after
-  the transaction, but not necessarily directly.
-- **Isolation**. Although queries are run in parallel they behave as if serial.
-- **Durability**. Changes to the database are permanent.
-
-### Indexes
-
-One can index a specific column for faster search speeds in exchange for slower
-writes and more memory consumption. Using indexes avoids full-table scans.
+is described in schemas. Most relational databases support
+[SQL](./relational_databases/sql.md).
 
 ## Non-relational Databases
 
