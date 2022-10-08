@@ -4,6 +4,7 @@ const math = require("remark-math");
 const katex = require("rehype-katex");
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const mdxMermaid = require("mdx-mermaid");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -37,7 +38,7 @@ const config = {
       ({
         docs: {
           rehypePlugins: [katex],
-          remarkPlugins: [math],
+          remarkPlugins: [mdxMermaid, math],
           routeBasePath: "/",
           showLastUpdateTime: true,
           sidebarPath: require.resolve("./sidebars.js"),

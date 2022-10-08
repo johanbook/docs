@@ -11,6 +11,12 @@ and database migrations as transitioning between different states. For each
 needed transition, one creates a migration script that contains the necessary
 commands for executing the state change.
 
+```mermaid
+graph TD
+    A[Previous sate] -->|Up| B[Go shopping]
+    B -->|Down| A
+```
+
 Although the migration scripts typically are written in an [ORM](../orm.md),
 here is an example in SQL. Assume we initially created a table like so:
 
