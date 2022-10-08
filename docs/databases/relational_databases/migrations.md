@@ -13,7 +13,7 @@ commands for executing the state change.
 
 ```mermaid
 graph TD
-    A[Previous sate] -->|Up| B[Go shopping]
+    A[Previous state] -->|Up| B[Newest state]
     B -->|Down| A
 ```
 
