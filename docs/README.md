@@ -5,7 +5,8 @@ slug: /
 ---
 
 Welcome to Book's docs! Here you will find my personal wikis on all kinds of
-computer related topics.
+computer related topics. Note that these docs are meant to be used for lookup on
+different topics rather than tutorials.
 
 ## Something missing?
 
