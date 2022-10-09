@@ -1,8 +1,9 @@
 # Type systems
 
 A programming language can be either strongly typed where type errors are
-inferred during compile time (see [linting](../development/linting)) or weakly
-typed and said errors are inferred at runtime.
+inferred during compile time (see
+[linting](../development/static_code_analysis.md)) or weakly typed and said
+errors are inferred at runtime.
 
 ## Weakly typed languages
 
