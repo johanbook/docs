@@ -1,5 +1,11 @@
-# Linting
+# Static code analysis
 
-**Linting** is a form of static code analysis. It is used to find syntax errors,
-styling issues and undesired patterns. Using linting in a project **is a must**.
-One should always use the strictest possible settings from start.
+**Static Code Analysis**, also known as **linting**, is an analysis that is
+typically run on a program's source code to find potential bugs, formatting
+issues and undesirable patterns. Static code analysis should be run either as
+part of a [Git hook](../devops/git.md#hooks) or as part of a
+[CI pipeline](../devops/ci_cd.md).
+
+## Quality gate
+
+A **quality gate** is a threshold the code must pass when being linted.

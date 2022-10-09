@@ -1,6 +1,7 @@
 # Git
 
-**Git** is a powerful version control system (VCS).
+**Git** is a version control system (VCS), commonly used for tracking software
+source code. It also being used for software configuration, aka Git for devops.
 
 ## Merge strategies
 
@@ -40,3 +41,14 @@ To rebase the root commit (e.g. initial commit), do
 ```sh
 git rebase -i --root
 ```
+
+## Hooks
+
+A **Git hook** is a piece of code that is triggered upon certain git events,
+such as pre-commit, pre-push and post-commit. Some common hooks are code
+formatting as part of pre-commit and [linting](../development/linting.md) as
+part of pre-push.
+
+It is recommended that hooks are installed as part of the software installation
+process, preferably by the package manager itself such that the installation
+process is deterministic and cannot be bypassed.

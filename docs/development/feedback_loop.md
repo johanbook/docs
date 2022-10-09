@@ -1,8 +1,9 @@
 # Feedback loop
 
-The **feedback loop** is an important factor during development. With a too long
-feedback loop developers might lose focus. Things that create short feedback
-loops are:
+The **feedback loop** is the time it takes from making a change to a software
+until the change can be evaluated. It is important having a short feedback loop
+during development. With a too long feedback loop developers might lose focus.
+Things that create short feedback loops are:
 
 - **Fast tests** Expensive operations should be mocked. If testing expensive
   operations they should have their own test suit that can run in a remote
