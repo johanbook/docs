@@ -8,5 +8,5 @@ pushes or merge requests on a [Git](./git) SaaS. This pipeline can run
 [static code analysis](../development/static_code_analysis.md) and even
 deployments.
 
-In continuous integration you typically run a test pipeline to confirm tests
-pass. In continuous deployment you also deploy the changes.
+In CI you typically run a test pipeline to confirm tests pass. In CD you also
+deploy the changes.

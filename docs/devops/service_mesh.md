@@ -13,5 +13,5 @@ Containers are often accompanied by **sidecars**.
 
 ## Other
 
-A service mesh can enable e.g. mTLS without needing any implementation in the
-application itself.
+A service mesh can enable e.g. [mTLS](../network/protocols/tls/README.md#mtls)
+without needing any implementation in the application itself.

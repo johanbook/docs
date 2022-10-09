@@ -22,5 +22,5 @@ perspective.
 
 ## mTLS
 
-mTLS is a version of TLS for mutual authentication. This is in contrast to
+**mTLS** is a version of TLS for mutual authentication. This is in contrast to
 standard TLS where only the server authenticates itself.
