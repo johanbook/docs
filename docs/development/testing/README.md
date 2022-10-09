@@ -9,8 +9,8 @@ running the program itself.
 
 ## Manual testing
 
-**Manual testing** is when a tester writes and executes test cases. This can be
-either black-box or white-box testing.
+**Manual testing** is typically when a tester writes and executes test cases.
+This can be either black-box or white-box testing.
 
 ### White-box testing
 
