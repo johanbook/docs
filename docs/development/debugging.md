@@ -1,6 +1,8 @@
 # Debugging
 
 **Debugging** is the process of inspecting an application to find and fix bugs.
+When debugging a production application, one often also uses
+[logs](../devops/monitoring/logging.md).
 
 ## Debugger
 
