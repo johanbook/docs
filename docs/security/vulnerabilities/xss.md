@@ -2,9 +2,7 @@
 
 **Cross site scripting** (**XSS**) is an attack where one runs a script
 (typically JavaScript) in another user's browser. This can happen if user inputs
-are not correctly sanitized and then displayed back to users.
-
-XSS can be used for
+are not correctly sanitized and then displayed back to users. It can be used for
 
 - stealing stored data in browser local storage
 - steal cookies (unless they are server-side read-only)
@@ -12,9 +10,11 @@ XSS can be used for
 - send requests (especially dangerous if cookie-based authentication is used)
 - keylogger
 
-For example, assume we have a social media site wheres user can post comments.
-The comments are rendered server side using a template language (although it is
-as much of a vulnerability for client-side rendering)
+## Example
+
+Assume we have a social media site where users can post comments. The comments
+are rendered server side using a template language (although it is as much of a
+vulnerability for client-side rendering)
 
 ```html
 <div>
@@ -22,14 +22,7 @@ as much of a vulnerability for client-side rendering)
 </div>
 ```
 
-A malicious user posts the following comment
-
-```html
-<script>
-  alert("XSS");
-</script>
-```
-
+A malicious user posts a comment containing `<script>alert("XSS!")</script>`.
 When any user attempt to see this comment, the HTML renders as below which
 executes the malicious script.
 
@@ -43,10 +36,13 @@ executes the malicious script.
 </div>
 ```
 
-## Accessing Local Storage
+### Accessing local storage
 
-Here is a vulnerability from an app I was working. This attack could grab a
-token in persisted Redux store and send it to an evil server.
+Assume an attacker knows an application is vulnerable to XSS. On further
+investigation, one can also see that it stores authentication tokens in the
+browser local storage as [JSON](../../programming/data_formats/json.md) under
+the key `persist:root`. Then an attack to send user tokens to a malicious server
+would be:
 
 ```html
 <script>
@@ -65,8 +61,10 @@ token in persisted Redux store and send it to an evil server.
 The best protection against XSS is to make sure all user input is sanitized and
 that no vulnerable data is stored in local storage or browser readable cookies.
 
+Avoid rendering custom HTML content.
+
 ## XST
 
-There is something called Cross-Site Tracing (XST) where one uses a HTTP Track
-request to bypass the `httpOnly` attribute in a cookie. To protect against XST,
-make sure Track requests are disabled (especially from JavaScript).
+**Cross-Site Tracking** (**XST**) is where one uses the HTTP Track method to
+bypass the `httpOnly` attribute in a cookie. To protect against XST, make sure
+Track requests are disabled (especially from JavaScript).
