@@ -1,7 +1,15 @@
 # Systemd
 
-**Systemd** is an init system for Linux. An example service configuration looks
-like this
+**Systemd** is a suite of tools, including an init system, for Linux. A service
+can be started using
+
+```sh
+systemctl start bluetooth.service
+```
+
+## Configuring a unit
+
+An example service configuration looks like this
 
 ```sh
 [Unit]
