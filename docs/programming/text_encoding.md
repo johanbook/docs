@@ -1,6 +1,7 @@
 # Text encoding
 
-There are different ways to encode text.
+A **text encoding** is an approach to storing text ([strings](./strings.md)) in
+memory.
 
 ## ASCII
 

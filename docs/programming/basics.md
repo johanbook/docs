@@ -1,6 +1,6 @@
 # Basics
 
-These are some useful concepts.
+This page will discuss some basic concepts in programming.
 
 ## First-class functions
 
@@ -29,31 +29,22 @@ change to `s1`.
 
 Idempotence is a mathematical concept. Consider the function $f$ and its
 composite $f \circ f$, then it is idempotent if $f \circ f (x) = f(x)$.
+
 Statements can be idempotent. Variable assignments are an typical example of
-this. Another example is GET and PUT in the HTTP methods (while POST and DELETE
-are not).
+this. Another example is GET and PUT in the
+[HTTP](../network/protocols/http/README.md) methods (while POST and DELETE are
+not).
 
 ## Memoization
 
-Memoization is the concept of caching the results of expensive function calls.
-This does introduce a processing-memory trade-of.
+**Memoization** is the concept of caching the results of expensive function
+calls. This does introduce a processing-memory trade-of.
 
 ## DRY
 
 **DRY** is an acronym that stands for **Don't Repeat Yourself**. This gives
 minimal code that is easier to maintain.
 
-## Strings
-
-A string is a list of characters and is in most languages immutable. One can
-perform several operations on strings. For example; concatenation, which is
-
-```python
-'hey' + 'there'
-```
-
-Interpolation is
-
-```python
-f'hey {name}'
-```
+It is important to identify where DRY is applicable and where it is not. For
+example, if two pieces of code are utterly similar but fulfill rather different
+purposes one should think carefully before DRYing it up.
