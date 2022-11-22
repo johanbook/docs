@@ -1,6 +1,6 @@
 # Git
 
-**Git** is a version control system (VCS), commonly used for tracking software
+**Git** is a Version Control System (VCS) commonly used for tracking software
 source code. It also being used for software configuration, aka Git for devops.
 
 ## Merge strategies
@@ -21,6 +21,46 @@ merge is suitable. Git will try to decide which lines per file should be used
 and if successful creates a merge commit with the result. The merge commit will
 have multiple parents creating a non-linear history.
 
+## Resetting
+
+One can reset a repository to a previous commit using `git reset`. This command
+will move both HEAD and branch reference to the specified commit (in contrast to
+`checkout` which only moves HEAD). How commits preceding the specified commits
+are handled depends on whether it is a soft or hard reset.
+
+### Mixed reset
+
+A soft reset will reset the state of the repository to that of a specified
+commit. Later changes will be present in the working tree but not staged.
+
+```sh
+git reset --mixed <COMMIT>
+```
+
+### Soft reset
+
+A soft reset will reset the state of the repository to that of a specified
+commit. Later changes are staged.
+
+```sh
+git reset --soft <COMMIT>
+```
+
+For example, to undo and edit the previous commit do
+
+```sh
+git reset --soft HEAD~1
+```
+
+### Hard reset
+
+A hard reset will reset the repository state to that of a specified commit.
+Later changes are dropped from working tree and staging tree.
+
+```sh
+git reset --hard <COMMIT>
+```
+
 ## Rebasing
 
 Rebasing can be used to edit the Git history of a repository.
@@ -34,7 +74,7 @@ private email, this can be done on multiple commits using the following command
 git rebase -i HEAD~1 -x git commit --amend --author "Author Name <EMAIL>" --no-edit
 ```
 
-## Rebasing root commit
+### Rebasing root commit
 
 To rebase the root commit (e.g. initial commit), do
 
