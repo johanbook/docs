@@ -1,16 +1,22 @@
 # Multi-factor authentication
 
-**Multi-factor authentication** (**MFA**) is an authentication approach that
-uses multiple factors. To authenticate to a system using MFA, a user prove at
-least two of the following:
+**Multi-factor authentication** (**MFA**) is an authentication approach where a
+user must prove they have multiple factors. Some common factors are:
 
-- Knowledge, such as a password.
-- Possession, such as a mobile phone, USB stick.
-- Inherence, biometrics such as fingerprint, eye iris and voice.
-- Location, where the user is.
+- **Knowledge**, such as a password.
+- **Possession**, such as a mobile phone or an USB stick.
+- **Inherence**, biometrics such as fingerprint, eye iris or voice.
+- **Location**, where the user is.
+
+The higher the number of factors, the higher the security.
 
 ## Two-factor authentication
 
-Requiring two of these is called two-factor authentication. This is used for
-e.g. bank cards (using a PIN to prove knowledge and the physical card to prove
-possession).
+**Two-factor authentication** is a form of MFA where only factors are required.
+This is used for e.g. bank cards (using a PIN to prove knowledge and the
+physical card to prove possession).
+
+## Mobile phones in MFA
+
+Mobile phones are commonly used to prove possession in MFA, typically using an
+authentication app that generates time based codes.

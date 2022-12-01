@@ -20,3 +20,12 @@ decides what communication goes between the parent and child network. This
 reduces network traffic, as not all traffic on the parent network is forwarded
 to the child and so on. It also alleviates the requirement of global node IDs,
 as a node only need to have a unique id inside its local network.
+
+## Addressing methods
+
+There are multiple addressing methods in IP:
+
+- **Broadcast** sends data to all nodes in the network.
+- **Anycast** is when data is transmitted to the nearest node.
+- **Multicast** is when data is transmitted to multiple nodes.
+- **Unicast** is when data is transmitted to one specific node.
