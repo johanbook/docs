@@ -5,3 +5,6 @@ systems typically includes
 
 - designs for reusable [components](./components.md).
 - style guides
+
+For an example of a design system, see
+[Aurora](https://www.johanbook.com/aurora/).
