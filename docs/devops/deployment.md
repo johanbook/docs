@@ -44,7 +44,7 @@ containers).
 
 ## Kubernetes
 
-[Kubernetes](./kubernetes/README) is a technology mainly for deploying Docker
+[Kubernetes](./kubernetes/README.md) is a technology mainly for deploying Docker
 images and does load balancing, handling worker nodes and all for you.
 
 ## Serverless

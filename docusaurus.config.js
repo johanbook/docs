@@ -23,7 +23,6 @@ const config = {
       // Seach plugin: https://github.com/cmfcmf/docusaurus-search-local
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
-        docsRouteBasePath: "/",
         indexBlog: false,
         indexPages: true,
         indexDocSidebarParentCategories: 2,
@@ -40,7 +39,7 @@ const config = {
           rehypePlugins: [katex],
           remarkPlugins: [mdxMermaid, math],
           routeBasePath: "/",
-          showLastUpdateTime: true,
+          showLastUpdateTime: false,
           sidebarPath: require.resolve("./sidebars.js"),
         },
         theme: {},

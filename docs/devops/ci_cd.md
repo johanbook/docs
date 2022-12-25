@@ -4,7 +4,7 @@
 the concepts of integrating and deploying code continuously. This is
 accomplished by triggering a pipeline on certain events, typically triggered on
 pushes or merge requests on a [Git](./git) SaaS. This pipeline can run
-[testing](../development/testing/README),
+[testing](../development/testing/README.md),
 [static code analysis](../development/static_code_analysis.md) and even
 deployments.
 

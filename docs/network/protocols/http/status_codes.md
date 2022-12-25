@@ -1,6 +1,6 @@
 # Status codes
 
-There are different **status codes** in the [HTTP protocol](./README).
+There are different **status codes** in the [HTTP protocol](./README.md).
 
 ## 100 - Information
 

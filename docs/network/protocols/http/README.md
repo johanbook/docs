@@ -65,7 +65,7 @@ HTTP used different _verbs_ for request purpose. The allowed verbs are:
 
 ## HTTPS
 
-HTTPS is an encrypted variant of HTTP using [TLS](../tls/README) .
+HTTPS is an encrypted variant of HTTP using [TLS](../tls/README.md) .
 
 ## Encodings
 
