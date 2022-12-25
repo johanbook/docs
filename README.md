@@ -1,6 +1,8 @@
 # docs
 
-These are my coding docs. They use [Docusaurus](https://docusaurus.io/).
+**docs** are my coding docs. They are written
+[markdown](https://www.markdownguide.org/) and compiled to at static site using
+the [Docusaurus](https://docusaurus.io/) framework.
 
 ## Development
 
