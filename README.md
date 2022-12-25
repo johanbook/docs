@@ -14,8 +14,5 @@ npm run dev
 
 ## Deployment
 
-The docs are hosted on Github pages and can be deployed using
-
-```sh
-npm run deploy
-```
+The docs are hosted on Github pages and are built as part of a CD pipeline. The
+compilation is done using Node v16 (LTS).
