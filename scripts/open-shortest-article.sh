@@ -1,3 +1,5 @@
+#!/bin/sh
+
 find docs |
 	rg md |
 	xargs wc -w |

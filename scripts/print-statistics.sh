@@ -1,3 +1,5 @@
+#!/bin/sh
+
 numArticles=$(find docs | rg md | wc -l)
 numWords=$(find docs | rg md | xargs cat | wc -w)
 numAverage=$(($numWords / $numArticles))
