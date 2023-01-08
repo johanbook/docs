@@ -1,10 +1,27 @@
 # docs
 
-**docs** are my coding docs. They are written
-[markdown](https://www.markdownguide.org/) and compiled to at static site using
-the [Docusaurus](https://docusaurus.io/) framework.
+![deploy](https://img.shields.io/github/actions/workflow/status/johanbook/docs/deploy.yaml)
+![uptime](https://img.shields.io/uptimerobot/ratio/m793425276-368a1e113b433b3c04d08dd6)
+![last commit](https://img.shields.io/github/last-commit/johanbook/docs)
 
-## Development
+**docs** is my coding wiki, hosted at
+[johanbook.com/docs](https://johanbook.com/docs). They are written using
+[markdown](https://www.markdownguide.org/) and compiled to a static site using
+the Nodejs-based [Docusaurus](https://docusaurus.io/) framework.
+
+## Found an error?
+
+If something is incorrect or could be improved, open an issue in
+[here](https://github.com/johanbook/docs/issues).
+
+## Running locally
+
+The documentation site can be run locally. It requires a Nodejs runtime and the
+NPM package manager. The dependencies are installed by running
+
+```sh
+npm install -d
+```
 
 To start a development server run
 
