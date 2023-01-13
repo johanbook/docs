@@ -43,7 +43,9 @@ const config = {
           showLastUpdateTime: false,
           sidebarPath: require.resolve("./sidebars.js"),
         },
-        theme: {},
+        theme: {
+          customCss: [require.resolve("./assets/css/styles.css")],
+        },
       }),
     ],
   ],
@@ -71,13 +73,14 @@ const config = {
       metadata: [{ name: "keywords", content: "wiki,programming" }],
       navbar: {
         title: "Johan Book",
-        // logo: {
-        //   alt: "Site logo",
-        //   src: "https://johanbook.com/fs/logo.png",
-        //   srcDark: "https://johanbook.com/fs/logo.png",
-        //   href: "https://johanbook.com",
-        //   target: "_self",
-        // },
+        logo: {
+          alt: "Site logo",
+          src: "https://johanbook.com/fs/logo_light.png",
+          srcDark: "https://johanbook.com/fs/logo_dark.png",
+          href: "https://johanbook.com",
+          target: "_self",
+          height: 20,
+        },
         items: [
           {
             label: "Coding",
@@ -95,6 +98,12 @@ const config = {
             position: "left",
             target: "_self",
             to: "https://johanbook.com/workout",
+          },
+          {
+            label: "Projects",
+            position: "left",
+            target: "_self",
+            to: "https://johanbook.com/projects",
           },
         ],
       },
