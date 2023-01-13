@@ -13,9 +13,10 @@ const config = {
   url: "https://johanbook.com",
   baseUrl: "/docs/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "throw",
+  onDuplicateRoutes: "throw",
   favicon: "https://johanbook.com/favicon.ico",
-  organizationName: "docs",
+  organizationName: "johanbook",
   projectName: "docs",
 
   plugins: [
@@ -69,13 +70,19 @@ const config = {
     ({
       metadata: [{ name: "keywords", content: "wiki,programming" }],
       navbar: {
-        title: "Coding",
+        title: "Johan Book",
+        // logo: {
+        //   alt: "Site logo",
+        //   src: "https://johanbook.com/fs/logo.png",
+        //   srcDark: "https://johanbook.com/fs/logo.png",
+        //   href: "https://johanbook.com",
+        //   target: "_self",
+        // },
         items: [
           {
             label: "Coding",
             position: "left",
-            target: "_self",
-            to: "https://johanbook.com/docs",
+            to: "/",
           },
           {
             label: "Cooking",
