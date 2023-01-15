@@ -1,6 +1,9 @@
 # Types of software
 
-There are multiple types of software.
+There are different **categories** of software systems which will aflected in
+the functional and non-functional
+[system requirements](./requirements_analysis.md). Some examples of categories
+are the following:
 
 - **Enterprise** which often are very complex and a vast number of features.
   Response times and scalability might not be a concern.
