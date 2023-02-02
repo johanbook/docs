@@ -1,11 +1,8 @@
 # Automated testing
 
-In order to have confidence in that the code we write works as expected, we
-should write tests. The most basic test is to just execute a function (or
-instantiate an object) and then check that the result is as expected.
-
-Automated tests are a type of
-[white-box testing](../README.md#white-box-testing).
+**Automated testing** is a testing approach where one uses automated tests,
+typically by writing bespoke tests as part of the source code. Automated tests
+are a typically a form of [white-box testing](../README.md#white-box-testing).
 
 ## The anatomy of a test
 
