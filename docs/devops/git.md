@@ -1,7 +1,24 @@
 # Git
 
 **Git** is a Version Control System (VCS) commonly used for tracking software
-source code. It also being used for software configuration, aka Git for devops.
+source code. It also being used for software configuration, aka
+[GitOps](./gitops.md).
+
+## Configuration
+
+Git has various configurations. For example, name and email can be set using
+
+```sh
+git config --global user.email "john@doe.com"
+git config --global user.name "John Doe"
+```
+
+The different configuration levels are:
+
+- **System** are system-wide configurations.
+- **Global** are global configurations for the current user.
+- **Local** are configurations for the current repository. These configurations
+  are found in `.git/config`.
 
 ## Merge strategies
 
