@@ -13,7 +13,7 @@ The **Liskov substitution principle** (**LSP**)
 
 ## Interface Segregation Principle
 
-The **Interface Segregation Principle** (**ISP**) is about that implementations should not need to implements parts of interfaces that do not make sense for them. 
+The **Interface Segregation Principle** (**ISP**) is about that implementations should not need to implements parts of interfaces that do not make sense for them.  For example, consider the following interface:
 
 ```ts
 interface Bird {
@@ -22,21 +22,22 @@ interface Bird {
 }
 ```
 
+If we implement this interface for a bird that cannot fly, this will leave one method with an unexpected result, such as
+
 ```ts
 class Ostrich implements Bird {
   eat() { /* ... */ }
   fly() { 
-   /* Is not applicable */
+   throw new Error("Bird cannot fly");
   }
 }
 ```
 
+To come around this, interfaces should have a single responsibilty and kept as small as possible.
+
 ## Dependency Inversion Principle
 
-Dependency injection (DIP) states that high-level modules should not depend on low-level modules but instead should rely on abstractions. The abstractions should not depend on details. This allows for easier testing and helps SRP. This promotes dependency injection. It drives towards loose coupling.
-
-IoC containers
-Automatic vs code configuration. Automatic code might scan the assembly. Alternative through XML/JSON, neat as it does not require recompilation but is not type safe.
+The **dependency inversion principle** (**DIP**) states that high-level modules should not depend on low-level modules but instead should rely on abstractions. The abstractions should not depend on details. This allows for easier testing and helps SRP. This promotes dependency injection. It drives towards loose coupling.
 
 ## Cohesion and coupling
 
