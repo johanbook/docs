@@ -1,3 +1,16 @@
 # Test-driven development
 
-**Test-driven development** (**TDD**)
+**Test-driven development** (**TDD**) is a form of development where one writes the tests before implementing the functionality. 
+
+Advantages of using TDD are the following:
+
+- helps knowing then the code is good enough and stops over-engineering
+- can help breaking down complex requirements.
+
+## Workflow
+
+The TDD workflow is as follows:
+
+1. Create a unit tests. Make sure it compiles and files.
+2. Impelement the functionality such that the tests pass.
+3. Refactor and cleanup test.
