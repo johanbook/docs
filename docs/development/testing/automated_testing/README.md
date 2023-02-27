@@ -9,9 +9,10 @@ are a typically a form of [white-box testing](../README.md#white-box-testing).
 The anatomy of an automated test can be broken down into the following stages:
 
 1. Setup
-2. Interaction
-3. Assertions
-4. Teardown
+2. Arrange
+3. Interaction
+4. Assertions
+5. Teardown
 
 An example of this structure is shown below.
 
