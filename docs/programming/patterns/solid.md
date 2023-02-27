@@ -41,4 +41,4 @@ The **dependency inversion principle** (**DIP**) states that high-level modules 
 
 ## Cohesion and coupling
 
-High cohesion and low couping, easier to perform changes.
+One related concept is the one of cohesion and coupling. Cohesion means that files that are changed together are bundled together and coupling descibes how those modules are linked. This means that a system with high cohesion and low coupling is easier to change compared to a system that does not have those properties.
