@@ -5,7 +5,9 @@
 Advantages of using TDD are the following:
 
 - helps knowing then the code is good enough and stops over-engineering
-- can help breaking down complex requirements.
+- helps creating better APIs
+- can help breaking down complex requirements
+- confidence in code
 
 ## Workflow
 
