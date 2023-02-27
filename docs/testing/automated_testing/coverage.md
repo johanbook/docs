@@ -7,7 +7,8 @@ be divided into e.g. statements, functions, lines and branches.
 
 ## Coverage importance
 
-Different regions of an application has different requirements for coverage, for example;
+Different regions of an application has different requirements for coverage, for
+example;
 
 - Application layer depends on cost and benefit
 - Domain model should have 100% coverage

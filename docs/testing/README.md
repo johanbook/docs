@@ -4,8 +4,8 @@
 software behaves as intended. This can be done by writing
 [automated tests](./automated_testing/README.md) or by writing and executing
 manual tests cases. This is contrast to
-[static code analysis](../static_code_analysis.md) which can be done without
-running the program itself.
+[static code analysis](../development/static_code_analysis.md) which can be done
+without running the program itself.
 
 ## Manual testing
 

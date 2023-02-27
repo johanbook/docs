@@ -1,7 +1,8 @@
 # Dependency injection
 
-**Dependency injection** is a pattern where an entity gets its dependencies
-injected, typically via a function call. This helps with inversion of control.
+**Dependency injection** (**DI**) is a pattern where an entity gets its
+dependencies injected, typically via a function call. This helps with inversion
+of control.
 
 One relies on the concepts of
 
@@ -12,4 +13,10 @@ One relies on the concepts of
   the dependencies needed by a service.
 
 ## IoC containers
-Automatic vs code configuration. Automatic code might scan the assembly. Alternative through XML/JSON, neat as it does not require recompilation but is not type safe.
+
+An **Inversion of Control container**, or an **IoC container**, is a framework
+for implementing dependency injection. This can either be done fully
+automatically, e.g. by scanning the program assembly or done manually be in-code
+configuration or through external XML/JSON configuration. The latter is not type
+safe, but allows for changing injected dependencies without recompiling the
+program.

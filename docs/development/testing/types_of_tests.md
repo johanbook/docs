@@ -1,3 +1,0 @@
-# Types of tests
-
-UAT

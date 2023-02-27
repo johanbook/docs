@@ -29,10 +29,14 @@ Avoid logging sensative data (see GDPR).
 Common log levels are:
 
 - **Trace** is common events.
-- **Debug** is information that potentially could be useful when debugging the system
+- **Debug** is information that potentially could be useful when debugging the
+  system
 - **Info** is valuable information.
-- **Warn** is someting that might be an issue but is not a problem for the system.
-- **Error** is a specific system functinality that does not work. Should be investigated but not neccesarily right away.
-- **Fatal / Critical** is a major error that prevents the system from working. Should be investigated as soon as possible.
+- **Warn** is someting that might be an issue but is not a problem for the
+  system.
+- **Error** is a specific system functinality that does not work. Should be
+  investigated but not neccesarily right away.
+- **Fatal / Critical** is a major error that prevents the system from working.
+  Should be investigated as soon as possible.
 
 Trace and debug is often something that is activated on demand.

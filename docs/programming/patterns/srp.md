@@ -1,25 +1,16 @@
 # Single Responsibility Principle
 
 The **Single Responsibility Principle** (**SRP**) is a principle that states
-that a module should only ever have one reason to change. This can also be
-considered that a module, piece of code or a system should only have one
-responsibility. It can be expressed as "should do one thing only and do it
-well".
+that a module should only have one reason to change. This means that code with
+high cohesion should put together, or simply put, code that change together
+should be together.
 
-It is similar to the Unix principle.
+SRP helps creating clean code and enforces precise names and focused classes.
+
+It is similar to the [Unix principle](./unix-principle.md).
 
 ## Flag arguments
 
 A flag argument is a sign that a function does more than one thing. Then the
 single responsibility of this function should be to delegate the work to other
 functions.
-
-High cohesion
-
-One class should have only one reason to change.
-
-Identify things that are chanigng for different reasons.
-
-Group together things that change for the same reason.
-
-SR{P requires precise names, focused classes.

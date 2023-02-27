@@ -1,6 +1,7 @@
 # Test-driven development
 
-**Test-driven development** (**TDD**) is a form of development where one writes the tests before implementing the functionality. 
+**Test-driven development** (**TDD**) is a form of development where one writes
+the tests before implementing the functionality.
 
 Advantages of using TDD are the following:
 
