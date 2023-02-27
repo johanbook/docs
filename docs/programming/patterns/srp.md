@@ -13,3 +13,13 @@ It is similar to the Unix principle.
 A flag argument is a sign that a function does more than one thing. Then the
 single responsibility of this function should be to delegate the work to other
 functions.
+
+High cohesion
+
+One class should have only one reason to change.
+
+Identify things that are chanigng for different reasons.
+
+Group together things that change for the same reason.
+
+SR{P requires precise names, focused classes.
