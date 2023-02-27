@@ -1,16 +1,11 @@
 # SOLID
 
-**SOLID** is a set of principles that helps ataining clean code. The first principle is [single responsibility](./srp.md). The remaining principles are described in this document.
+**SOLID** is a set of principles that help attaining clean code. The first principle is [single responsibility](./srp.md). The remaining principles are described in this document.
 
 ## Open / closed principle
 
-The **open / closed principle** (**OCP**)
+The **open / closed principle** (**OCP**) states that modules should be open for extension but closed for modification. One can see this as that one should not need to modify the source code of a module when extending it. One example of how to accomplish this is the strategy pattern.
 
-modules should be open for extension but closed for modification
-
-You do not need to change the source code of a module when extending it
-
-Strategy pattern
 
 ## Liskov substitution principle
 
@@ -18,11 +13,23 @@ The **Liskov substitution principle** (**LSP**)
 
 ## Interface Segregation Principle
 
-The **Interface Segregation Principle** (**ISP**)
+The **Interface Segregation Principle** (**ISP**) is about that implementations should not need to implements parts of interfaces that do not make sense for them. 
 
-Implementations shuld not have to implement parts o finterfaces that don't make sense for them.
+```ts
+interface Bird {
+  eat(): void;
+  fly(): void;
+}
+```
 
-Clients should not be forced to implement interfaces that does not make sense for them.
+```ts
+class Ostrich implements Bird {
+  eat() { /* ... */ }
+  fly() { 
+   /* Is not applicable */
+  }
+}
+```
 
 ## Dependency Inversion Principle
 
