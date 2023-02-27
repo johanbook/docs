@@ -4,10 +4,12 @@ Tests can be divided into several different categories.
 
 ## Unit Tests
 
-A **unit test** tests one aspect / functionality of an object and nothing more.
+A **unit test** tests a single piece of functionality of an object and nothing more.
 Unit tests should be fast and any time-consuming or external processes are
 typically mocked. You typically end up with many unit tests but as long as tests
 are useful, then the more the better.
+
+Is automated. Tests a single responsibility. Fast. Idempotent. Has no dependencies on other tests. Have a cyclomatic complexity of 1.
 
 ## End-To-End Tests
 
