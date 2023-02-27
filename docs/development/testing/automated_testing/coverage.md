@@ -5,6 +5,14 @@
 areas in need of testing. Coverage is generated when the tests are run and can
 be divided into e.g. statements, functions, lines and branches.
 
+## Coverage importance
+
+Different regions
+
+- Application layer depends on cost and benefit
+- Domain model should have 100% coverage.
+- Infrastructure layer need no coverage in terms of unit tests.
+
 ## Code instrumentation
 
 In order to generate a coverage report, one first needs to instrument the target
