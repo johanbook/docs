@@ -1,7 +1,7 @@
 # Deployment
 
 **Deployment** is when the source code of an application (and sometimes its
-[configurations](./configs.md)) are deployed to server.
+[configurations](./configuration/README.md)) are deployed to server.
 
 Once an application is ready for production it is time for deployment. First we
 need to consider if we need an active server or we are interested in deploying

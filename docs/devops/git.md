@@ -2,7 +2,7 @@
 
 **Git** is a Version Control System (VCS) commonly used for tracking software
 source code. It also being used for software configuration, aka
-[GitOps](./gitops.md).
+[GitOps](./configuration/gitops.md).
 
 ## Configuration
 
