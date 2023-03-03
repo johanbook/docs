@@ -13,3 +13,9 @@ debugger.
 
 A debugger typically allows one to set breakpoints where the application is
 stopped and its state can inspected and modified.
+
+## Breakpoints
+
+A **breakpoint** is a point in the code where the debugger will pause. Many
+debuggers support conditional breakpoints where the debugger only pauses if
+certain conditions are met.
