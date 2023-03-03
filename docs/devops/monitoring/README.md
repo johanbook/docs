@@ -6,4 +6,4 @@ of its software phases, from development to production.
 ## MELT
 
 **MELT** is a monitoring concept that stands for [metrics](./metrics.md),
-events, [logs](./logging.md) and [traces](./tracing.md).
+events, [logs](./logging/README.md) and [traces](./tracing.md).
