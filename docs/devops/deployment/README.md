@@ -1,7 +1,7 @@
 # Deployment
 
 **Deployment** is when the source code of an application (and sometimes its
-[configurations](./configuration/README.md)) are deployed to server.
+[configurations](../configuration/README.md)) are deployed to server.
 
 Once an application is ready for production it is time for deployment. First we
 need to consider if we need an active server or we are interested in deploying
@@ -14,7 +14,7 @@ different ones.
 
 The old school hosting option is to roll your own Linux server. This gives you
 full control but requires you to manually perform maintenance such as security
-updates. It is not playing as nicely with [CI/CD](./ci_cd) as e.g. Cloud
+updates. It is not playing as nicely with [CI/CD](../ci_cd) as e.g. Cloud
 Foundry.
 
 ## Cloud foundry
@@ -34,7 +34,7 @@ Docker swarm has been deprecated and should not be used for new projects
 
 **Docker swarm** allows one run a swarm of Docker containers. It is similar to
 Docker compose, but more suitable to deployment as it features
-[orchestration](./orchestration) and cluster management. It is not as
+[orchestration](../orchestration) and cluster management. It is not as
 full-fledged (and as complicated) as Kubernetes.
 
 ### Logging
@@ -44,7 +44,7 @@ containers).
 
 ## Kubernetes
 
-[Kubernetes](./orchestration/kubernetes/README.md) is a technology mainly for
+[Kubernetes](../orchestration/kubernetes/README.md) is a technology mainly for
 deploying Docker images and does load balancing, handling worker nodes and all
 for you.
 
@@ -54,14 +54,3 @@ for you.
 of resources. A task is handled as a job that is queued and given to a machine
 once available. This adds a risk for overhead but one only pays for the actual
 usage. It's also more scalable.
-
-## Deployment strategies
-
-- **Canary** is when the new deployment is only released to a fraction of one's
-  user base. If no errors are encountered, the fractions can be continuously
-  increased. If there are errors one can do a rollback. This is the safest
-  approach.
-- **Blue/Green** is when the new deployment is rolled out in parallel to the old
-  and traffic is redirected as the new deployment becomes operational.
-- **Rolling** is when servers are taken down sequentially and upgraded.
-- **A/B** is similar to canary but more intended for design decisions.

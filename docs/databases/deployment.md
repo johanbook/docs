@@ -1,8 +1,8 @@
 # Deployment
 
 **Database deployment** needs some different considerations than
-[deployment](../devops/deployment.md) of other applications as databases need
-access to read- and writable memory, which can be challenging when scaling
+[deployment](../devops/deployment/README.md) of other applications as databases
+need access to read- and writable memory, which can be challenging when scaling
 horizontally.
 
 ## Sharding

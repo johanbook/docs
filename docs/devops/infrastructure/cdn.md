@@ -1,7 +1,7 @@
 # CDN
 
 A **Content Delivery Network** (**CDN**) is a network for distributing static
-files.
+files, such as for example the assets for a web application.
 
 ## PoP
 

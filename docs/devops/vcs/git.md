@@ -2,7 +2,7 @@
 
 **Git** is a Version Control System (VCS) commonly used for tracking software
 source code. It also being used for software configuration, aka
-[GitOps](./configuration/gitops.md).
+[GitOps](../configuration/gitops.md).
 
 ## Configuration
 
@@ -104,7 +104,7 @@ git rebase -i --root
 A **Git hook** is a piece of code that is triggered upon certain git events,
 such as pre-commit, pre-push and post-commit. Some common hooks are code
 formatting as part of pre-commit and
-[linting](../development/static_code_analysis.md) as part of pre-push.
+[linting](../../development/static_code_analysis.md) as part of pre-push.
 
 It is recommended that hooks are installed as part of the software installation
 process, preferably by the package manager itself such that the installation
