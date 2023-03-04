@@ -3,7 +3,7 @@
 find docs |
 	rg md |
 	xargs wc -w |
-	sort |
+	sort -g |
 	head -1 |
 	tr -s ' ' |
 	cut -d ' ' -f 3 |
