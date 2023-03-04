@@ -6,12 +6,16 @@ Docker swarm has been deprecated and should not be used for new projects
 
 :::
 
-**Docker swarm** allows one run a swarm of Docker containers. It is similar to
-Docker compose, but more suitable to deployment as it features
-[orchestration](./README.md) and cluster management. It is not as full-fledged
-(and as complicated) as Kubernetes.
+**Docker swarm** is a distributed orchestration tool for
+[Docker](../containerization/docker.md), similar to
+[Docker compose](./docker-compose.md), but more suitable for production
+deployments as it features cluster management. It is not as full-fledged as
+Kubernetes.
 
 ## Logging
 
-[Logs](../monitoring/logging/README.md) are sent to the daemon log (Docker logs)
-and container logs (logs from the containers).
+[Logs](../monitoring/logging/README.md) for Docker swarm itself is sent to the
+system log and can be viewed with standard tools (e.g.
+[journalctl](../../unix/tools/journalctl.md).
+
+Log to STDOUT/STDERR from the containers are contained in the Docker log.
