@@ -18,5 +18,6 @@ supports some form of bespoke query language for the log aggregator.
 
 The scraper is responsible for transmitting logs from the application to the log
 aggregator. How this is done depends on the underlying system. In a
-[Docker](../../docker.md) microservice architecture one typically logs to STDOUT
-and STDERR which is captured and forwarded to the aggregator by a Docker plugin.
+[Docker](../../containerization/docker.md) microservice architecture one
+typically logs to STDOUT and STDERR which is captured and forwarded to the
+aggregator by a Docker plugin.

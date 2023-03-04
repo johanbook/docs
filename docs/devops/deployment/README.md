@@ -7,9 +7,6 @@ Once an application is ready for production it is time for deployment. First we
 need to consider if we need an active server or we are interested in deploying
 only static files (which would be the case when deploying a webpage).
 
-There are different deployment strategies, but here is an overview of a few
-different ones.
-
 ## Linux server
 
 The old school hosting option is to roll your own Linux server. This gives you
