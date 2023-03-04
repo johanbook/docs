@@ -24,30 +24,6 @@ source code. A Cloud Foundry service analyzes your code to see what language it
 is and then employs a suiting buildpack (a script for compiling the app). It
 then configures the app, does some health checks and deploys it.
 
-## Docker Swarm
-
-:::danger
-
-Docker swarm has been deprecated and should not be used for new projects
-
-:::
-
-**Docker swarm** allows one run a swarm of Docker containers. It is similar to
-Docker compose, but more suitable to deployment as it features
-[orchestration](../orchestration) and cluster management. It is not as
-full-fledged (and as complicated) as Kubernetes.
-
-### Logging
-
-Logs are sent to the daemon log (Docker logs) and container logs (logs from the
-containers).
-
-## Kubernetes
-
-[Kubernetes](../orchestration/kubernetes/README.md) is a technology mainly for
-deploying Docker images and does load balancing, handling worker nodes and all
-for you.
-
 ## Serverless
 
 **Serverless** means that one has no specific dedicated server but rather a pool
