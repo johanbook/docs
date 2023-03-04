@@ -20,3 +20,6 @@ services:
 
 The stack is started by running `docker-compose up` in the same folder as the
 manifest.
+
+The application can be run either as an attached process or as a
+[daemon](../../unix/daemon.md).

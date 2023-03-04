@@ -58,5 +58,5 @@ In the sprint review, the scrum team will review how a completed sprint went.
 
 ### Retrospectives
 
-After each sprint, the team met for a retrospective to discuss how the iteration
-went and what could be improved.
+After each sprint, the team met for a [retrospective](./retrospective.md) to
+discuss how the iteration went and what could be improved.

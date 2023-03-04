@@ -5,7 +5,7 @@ the tests before implementing the functionality.
 
 Advantages of using TDD are the following:
 
-- helps knowing then the code is good enough and stops over-engineering
+- knowing when the code is good enough and prevents over-engineering
 - helps creating better APIs
 - can help breaking down complex requirements
 - confidence in code

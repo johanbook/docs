@@ -1,7 +1,7 @@
 # Kubernetes
 
-Kubernetes, sometimes shortened to K8s, is an open-source cluster manager
-developed by Google. It offers
+**Kubernetes**, sometimes shortened to **K8s**, is an open-source cluster
+manager developed by Google. It offers
 
 - **Availability** No down time
 - **Scalability** High performance
