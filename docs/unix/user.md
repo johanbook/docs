@@ -1,6 +1,7 @@
 # Users and groups
 
-Linux systems use **users** and **groups** to handle [IAM](../security/iam).
+Linux systems use **users** and **groups** to handle
+[IAM](../security/authentication-and-authorization/iam.md).
 
 ## Management using CLI
 

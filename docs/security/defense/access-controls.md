@@ -1,6 +1,7 @@
 # Access Controls
 
-One important part of defensive security is access controls.
+**Access controls** are mechanisms to control which resources an agent can
+access.
 
 ## Best practices
 

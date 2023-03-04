@@ -6,7 +6,7 @@ require a 99.999% uptime guarantee but a small-scale booking application might
 do with 99%.
 
 When using a cloud provider, uptime guarantees should be stated in the
-[SLA](../laws/sla.md).
+[SLA](../laws/agreements/sla.md).
 
 ## Examples
 

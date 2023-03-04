@@ -1,6 +1,6 @@
 # Caching
 
-Files are cached in browsers.
+Browsers has several caching mechanisms to increase performance.
 
 ## Cache busting
 

@@ -12,4 +12,4 @@ An SLA may for example cover:
 - **Penalties** penalties for failing to uphold contract, e.g. insufficient
   availability.
 - **Response times** to answer issues
-- **Uptime** what [uptime](../devops/uptime.md) should the service adhere to.
+- **Uptime** what [uptime](../../devops/uptime.md) should the service adhere to.

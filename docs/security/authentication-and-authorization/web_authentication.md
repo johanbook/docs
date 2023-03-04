@@ -3,7 +3,7 @@
 **Web authentication** typically works differently than e.g. API/CLI
 authentication as one can rely on the mechanisms of web browsers. Web
 authentication will take place over
-[HTTP(S)](../network/protocols/http/README.md). Considering that HTTP is a
+[HTTP(S)](../../network/protocols/http/README.md). Considering that HTTP is a
 stateless protocol, each request often must contain one or several secrets to be
 authenticated and authorized. This information can live either in the HTTP
 headers (or cookies) or in its body. Of these options using the HTTP headers /
@@ -16,7 +16,7 @@ domain-wide cookies one can achieve a SSO. However, it has the following
 drawbacks:
 
 - Requires cookies to be allowed in browser
-- Opens exposure to [XSRF](./vulnerabilities/csrf.md)
+- Opens exposure to [XSRF](../vulnerabilities/csrf.md)
 
 ## Tokens
 
@@ -26,7 +26,7 @@ allowed in the browser and inserts the token into the headers of each request.
 
 A problem is where the token should be stored if one aims to achieve SSO.
 Storing data in any web storage is as of now susceptible to
-[XSS](./vulnerabilities/xss).
+[XSS](../vulnerabilities/xss).
 
 ## Sessions vs Session-less
 
