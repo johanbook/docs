@@ -13,3 +13,5 @@ An SLA may for example cover:
   availability.
 - **Response times** to answer issues
 - **Uptime** what [uptime](../../devops/uptime.md) should the service adhere to.
+
+A SLA consists of multiple [SLOs](./slo.md).
