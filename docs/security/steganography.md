@@ -1,8 +1,8 @@
 # Steganography
 
-**Steganography** is the art of hiding files inside other files.
-
-Here is an example of how one can hide a file inside an image.
+**Steganography** is the art of hiding files inside other files. Here is an
+example of how one can hide a file inside an image using
+[zip](../unix/tools/zip.md):
 
 ```sh
 zip secret.zip my-files/
