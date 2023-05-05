@@ -6,19 +6,29 @@ source code. It also being used for software configuration, aka
 
 ## Configuration
 
-Git has various configurations. For example, name and email can be set using
+There are many available configuration options for Git. There are also different
+levels of configurations. The levels in order of increasing priority are:
+
+- **System** are system-wide configurations.
+- **Global** are global configurations for the current user.
+- **Local** are configurations for the current repository. These configurations
+  are found in `.git/config`.
+
+For example, global name and email can be set using
 
 ```sh
 git config --global user.email "john@doe.com"
 git config --global user.name "John Doe"
 ```
 
-The different configuration levels are:
+### Automatically setting up remote for branches
 
-- **System** are system-wide configurations.
-- **Global** are global configurations for the current user.
-- **Local** are configurations for the current repository. These configurations
-  are found in `.git/config`.
+You can configure Git to automatically setup remotes for local branches by
+running:
+
+```sh
+git config --global --add --bool push.autoSetupRemote true
+```
 
 ## Merge strategies
 
