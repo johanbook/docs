@@ -52,9 +52,8 @@ const config = {
 
   scripts: [
     {
-      src: "https://analytics.johanbook.com/js/plausible.js",
+      src: "https://johanbook.com/dreamdata-analytics.js",
       defer: true,
-      "data-domain": "johanbook.com",
     },
   ],
 
