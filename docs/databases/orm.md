@@ -13,6 +13,6 @@ In order to interact with the database via the ORM one uses a session.
 
 Using an ORM comes with multiple potential drawbacks:
 
-- SQL queries are abstracted away. Meaning they are harder to inspect.
-- Suboptimal SQL queries might be generated compared to what a person could
+- SQL queries are abstracted away meaning they are harder to inspect.
+- Suboptimal SQL queries might be generated compared to what a person would
   write by hand.
