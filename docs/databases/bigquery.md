@@ -16,7 +16,7 @@ As arrays are a data type and not tables, they cannot be queried and one cannot
 use e.g. the `WHERE` keyword. For example
 
 ```sql
-SELECT [1,2,3] AS myValue;
+SELECT [1, 2, 3] AS myValue;
 ```
 
 will return
