@@ -1,4 +1,4 @@
-# Zip
+# zip
 
 **zip** is a tool for zipping multiple files.
 
