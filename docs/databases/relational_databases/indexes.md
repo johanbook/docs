@@ -1,10 +1,12 @@
 # Indexes
 
 A **database index** is an index to more quickly search a table. The index uses
-a tree-like data structure, avoiding the need for full-table scans. However,
-adding an index to a table requires the index to be updated when the table is
-updated. This causes slower writes and a higher memory consumption. See the
-example below for how to create an index.
+a balanced tree-like data structure, avoiding the need for full-table scans.
+However, adding an index to a table requires the index to be updated and
+rebalanced when the table is updated. This causes slower writes and a higher
+memory consumption.
+
+You can create an index as below;
 
 ```sql
 CREATE TABLE person (
