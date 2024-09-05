@@ -50,13 +50,6 @@ const config = {
     ],
   ],
 
-  scripts: [
-    {
-      src: "https://johanbook.com/dreamdata-analytics.js",
-      defer: true,
-    },
-  ],
-
   stylesheets: [
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
