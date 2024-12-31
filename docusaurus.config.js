@@ -91,12 +91,6 @@ const config = {
             target: "_self",
             to: "https://johanbook.com/workout",
           },
-          {
-            label: "Projects",
-            position: "left",
-            target: "_self",
-            to: "https://johanbook.com/projects",
-          },
         ],
       },
       colorMode: {
