@@ -1,10 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-const math = require("remark-math");
-const katex = require("rehype-katex");
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-const mdxMermaid = require("mdx-mermaid");
+import math from "remark-math";
+import katex from "rehype-katex";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -22,7 +19,7 @@ const config = {
   plugins: [
     [
       // Seach plugin: https://github.com/cmfcmf/docusaurus-search-local
-      require.resolve("@cmfcmf/docusaurus-search-local"),
+      require.resolve("@gentledepp/docusaurus-search-local"),
       {
         indexBlog: false,
         indexPages: true,
@@ -38,7 +35,7 @@ const config = {
       ({
         docs: {
           rehypePlugins: [katex],
-          remarkPlugins: [mdxMermaid, math],
+          remarkPlugins: [math],
           routeBasePath: "/",
           showLastUpdateTime: false,
           sidebarPath: require.resolve("./sidebars.js"),
@@ -96,11 +93,7 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
     }),
 };
 
-module.exports = config;
+export default config;

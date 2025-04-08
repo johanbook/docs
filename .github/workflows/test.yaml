@@ -1,8 +1,6 @@
 name: Build pages
 
-on:
-  push:
-    branches: ["main"]
+on: pull_request
 
 permissions:
   pages: write
@@ -30,11 +28,3 @@ jobs:
 
       - name: Build pages
         run: pnpm run build
-
-      - name: Upload pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: build
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
