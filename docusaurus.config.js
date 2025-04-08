@@ -16,9 +16,13 @@ const config = {
   organizationName: "johanbook",
   projectName: "docs",
 
+  markdown: {
+    mermaid: true,
+  },
+
   plugins: [
     [
-      // Seach plugin: https://github.com/cmfcmf/docusaurus-search-local
+      // Search plugin: https://github.com/gentledepp/docusaurus-search-local
       require.resolve("@gentledepp/docusaurus-search-local"),
       {
         indexBlog: false,
@@ -56,6 +60,8 @@ const config = {
       crossorigin: "anonymous",
     },
   ],
+
+  themes: ["@docusaurus/theme-mermaid"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
