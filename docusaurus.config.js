@@ -28,6 +28,7 @@ const config = {
         indexBlog: false,
         indexPages: true,
         indexDocSidebarParentCategories: 2,
+        language: "en",
       },
     ],
   ],
