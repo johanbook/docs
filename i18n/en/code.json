@@ -1,0 +1,22 @@
+{
+  "cmfcmf/d-s-l.searchBar.placeholder": {
+    "message": "Search...",
+    "description": "Search..."
+  },
+  "cmfcmf/d-s-l.searchBar.noResults": {
+    "message": "No results found.",
+    "description": "No results found."
+  },
+  "cmfcmf/d-s-l.searchBar.clearButtonTitle": {
+    "message": "Clear",
+    "description": "Clear"
+  },
+  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": {
+    "message": "Cancel",
+    "description": "Cancel"
+  },
+  "cmfcmf/d-s-l.searchBar.submitButtonTitle": {
+    "message": "Submit",
+    "description": "Submit"
+  }
+}
