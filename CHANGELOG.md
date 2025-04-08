@@ -2,6 +2,72 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/johanbook/docs/compare/v1.1.0...v1.2.0) (2025-04-08)
+
+
+### Features
+
+* add containerization folder ([2bee113](https://github.com/johanbook/docs/commit/2bee11368117434977836703c217cadfacfda904))
+* add deployment to own folder ([02ce3df](https://github.com/johanbook/docs/commit/02ce3df1ad202bcc93406414b1c1ef7bc0dd35e3))
+* add more notes on scrum ([435d6cb](https://github.com/johanbook/docs/commit/435d6cb422d05e9ec48bc7399d8fab44496c59f8))
+* add more notes on vps ([504ed52](https://github.com/johanbook/docs/commit/504ed52de895d07cf8c6824c1877ade2f05cf968))
+* add notes on bigquery ([09df048](https://github.com/johanbook/docs/commit/09df04801fb4b69b3f2daf3460acb6d4abf6f0ca))
+* add notes on breakpoints ([79a3a30](https://github.com/johanbook/docs/commit/79a3a30ed68d93bbdf42ae2c822691771cf39699))
+* add notes on cqs ([06d8d20](https://github.com/johanbook/docs/commit/06d8d20896029e24e62638d643d9b31e793f6e33))
+* add notes on database indexes ([b755df1](https://github.com/johanbook/docs/commit/b755df152518f32105bb027c3787ca4e2e611ca1))
+* add notes on database normalization ([b2faa6d](https://github.com/johanbook/docs/commit/b2faa6d26e63d3976d5f9fe95cf26e1d5dc3c66a))
+* add notes on docker-compose ([5161eef](https://github.com/johanbook/docs/commit/5161eefcc9d4fb9358b1a85debcfc2a537c9421e))
+* add notes on dotenv files ([3c7a195](https://github.com/johanbook/docs/commit/3c7a195b866ab7816a94ea4ca065e8e951a63ff1))
+* add notes on drawbacks with orms ([f40ea52](https://github.com/johanbook/docs/commit/f40ea52448f7e7f8987d3b4cc7125fe544f4f59e))
+* add notes on gdpr ([31af6cc](https://github.com/johanbook/docs/commit/31af6ccbcca925c25278faf9e83699617d4d8065))
+* add notes on git autoSetupRemote ([de4de80](https://github.com/johanbook/docs/commit/de4de80fcac4912231bdc9b00a8ebc41d3ba95ea))
+* add notes on git configs ([41735e6](https://github.com/johanbook/docs/commit/41735e6abf18f9f8ee57084afef0e5ce6763042f))
+* add notes on hashing ([9d24ef6](https://github.com/johanbook/docs/commit/9d24ef632f94df18842423eaa3581ae400f29ab8))
+* add notes on log levels ([8defd01](https://github.com/johanbook/docs/commit/8defd011faa039781127f68313e84cb5cd27ebbc))
+* add notes on mvcc ([d5bab04](https://github.com/johanbook/docs/commit/d5bab043187a00ad975c4fb51df1c8104f6884ed))
+* add notes on okrs ([7265e65](https://github.com/johanbook/docs/commit/7265e6540487098607b042810e029dcec19aa70b))
+* add notes on PII ([f2057c4](https://github.com/johanbook/docs/commit/f2057c4d06e61498b0cd88daa92091a8c19ee3b8))
+* add notes on risk analysis ([1640eff](https://github.com/johanbook/docs/commit/1640eff33c10127211f98a7935c2c746e206558b))
+* add notes on risk analysis ([489ea77](https://github.com/johanbook/docs/commit/489ea776566b1fb2c36dd184319407eaa182cf0e))
+* add notes on sed ([e097582](https://github.com/johanbook/docs/commit/e097582e19633d45e847a22cea734980a2a33898))
+* add notes on SLOs ([636af5a](https://github.com/johanbook/docs/commit/636af5a9e6613f760dd43d19467b6df122a16759))
+* add notes on srp ([ecd6b8d](https://github.com/johanbook/docs/commit/ecd6b8db67bb010cab5348bea19c0629b36ad360))
+* add notes on ss util ([62c403d](https://github.com/johanbook/docs/commit/62c403d7f33bf205c74ea4bc8476f5fc9a8f96dd))
+* add notes on standard streams ([4b6dbaa](https://github.com/johanbook/docs/commit/4b6dbaab1a83b62f0dd97962e6bc3df40f69f3fc))
+* add notes on uptime ([077fed7](https://github.com/johanbook/docs/commit/077fed7a57b2580a6ca5c58464a13c44e9df2728))
+* add notes on ux of table sorting ([e015e5f](https://github.com/johanbook/docs/commit/e015e5f1206d2717f2d019c807af883ded480e84))
+* add notes on vault ([17449c1](https://github.com/johanbook/docs/commit/17449c1a0de67b063177634aebbb9a0dcbe67cb9))
+* add notes on zip ([e0be963](https://github.com/johanbook/docs/commit/e0be963f855ae99c03997482b6f3fa534e7ce863))
+* add page metadata keywords ([667a18b](https://github.com/johanbook/docs/commit/667a18b5f37e4dcd30c87c6e213fce891a280b50))
+* add uptime examples ([be79bc7](https://github.com/johanbook/docs/commit/be79bc770289a7dd3bc861d1543b9a72d9c34e8b))
+* clarify providers for configurations ([2c8f9e2](https://github.com/johanbook/docs/commit/2c8f9e271e38c5bfccd1df209986cae9fbf17ef9))
+* docs add notes on tracking cookies ([18d99ef](https://github.com/johanbook/docs/commit/18d99ef24df939b917deafebfb9547b97e508f76))
+* format docs ([13b5ca9](https://github.com/johanbook/docs/commit/13b5ca9c699082af588965889f4c3edd2ad984ab))
+* improve docs on colors ([b198608](https://github.com/johanbook/docs/commit/b1986082188846af8890e93d04cdb91fa1ce4b50))
+* move authz and authn to own subpage ([ddb44f2](https://github.com/johanbook/docs/commit/ddb44f2c26c260cb4cd5a125f23d2253e71e0f43))
+* move kubernetes to subfolder ([bfc2e9e](https://github.com/johanbook/docs/commit/bfc2e9e53580bee85ed12485b89ccde0bac78cb1))
+* move secrets to subfolder ([1ecf886](https://github.com/johanbook/docs/commit/1ecf88699a25f1a5f8ed206f08b519ac0063ee53))
+* remove dead link ([8e23314](https://github.com/johanbook/docs/commit/8e2331453edfb8aa96af87ad6691db1493c0e3a1))
+* update docs on layered architecture ([dbb94ce](https://github.com/johanbook/docs/commit/dbb94ce9f4e11de4e2b206dbfde165c39f8bb7bc))
+* update landing page ([f46aa35](https://github.com/johanbook/docs/commit/f46aa3585a9cb2c2f434af6c0753e309bfba5301))
+* update notes on automated tests ([639b085](https://github.com/johanbook/docs/commit/639b085697edd64320e1eac6e0370b43977c9e94))
+* update notes on ids and ztn ([4bb5954](https://github.com/johanbook/docs/commit/4bb5954952364b6ee2324f665957575d00b37e78))
+* update notes on microservices ([94bc998](https://github.com/johanbook/docs/commit/94bc998498a8351c12766eb2d5e6d10381b32cb2))
+* update notes on regexps ([beaa4a3](https://github.com/johanbook/docs/commit/beaa4a33384e92a15ab34d2f6e37899c51190ab0))
+* update notes on requirement analysis ([4c80dc1](https://github.com/johanbook/docs/commit/4c80dc1ebd866926229aedf7eb3a2468c1b96111))
+* update notes on test types ([4466cfe](https://github.com/johanbook/docs/commit/4466cfed8c53812ba5b4eb1ee9adba101cc50893))
+* various cleanup ([cc0f5af](https://github.com/johanbook/docs/commit/cc0f5af151c5041a31d1c028e5b3ccf526699c48))
+
+
+### Bug Fixes
+
+* add dummy image in navbar to use correct url ([1a37719](https://github.com/johanbook/docs/commit/1a37719935cbadbf9ee5354bf8ba056c3a26556a))
+* fix formatting ([3ae7adc](https://github.com/johanbook/docs/commit/3ae7adcb143553ef56e28aed2b936fe43d52515e))
+* fix highlighting curent page in navbar ([1eba395](https://github.com/johanbook/docs/commit/1eba395aa84e03925e1201db451ec9018a12500d))
+* fix sorting error in scripts ([c6c6441](https://github.com/johanbook/docs/commit/c6c644118a8e5a8ad2dd9f693a8f1a5c53c06fdd))
+* fix typo ([f997fd3](https://github.com/johanbook/docs/commit/f997fd3748958538ee0325b14d61a89d0e7f6742))
+* fix typos ([24237eb](https://github.com/johanbook/docs/commit/24237eb892f53af0febd6f4b54bb668a8e6917e0))
+
 ## 1.1.0 (2023-01-08)
 
 
