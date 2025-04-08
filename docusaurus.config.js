@@ -3,6 +3,8 @@
 import math from "remark-math";
 import katex from "rehype-katex";
 
+import { themes as prismThemes } from "prism-react-renderer";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "docs",
@@ -18,6 +20,14 @@ const config = {
 
   markdown: {
     mermaid: true,
+  },
+
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   plugins: [
@@ -100,6 +110,10 @@ const config = {
       },
       colorMode: {
         respectPrefersColorScheme: true,
+      },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
 };
