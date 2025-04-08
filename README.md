@@ -17,19 +17,19 @@ If something is incorrect or could be improved, open an issue in
 ## Running locally
 
 The documentation site can be run locally. It requires a Nodejs runtime and the
-NPM package manager. The dependencies are installed by running
+PNPM package manager. The dependencies are installed by running
 
 ```sh
-npm install -d
+pnpm install
 ```
 
-To start a development server run
+To start a local development server run
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 ## Deployment
 
 The docs are hosted on Github pages and are built as part of a CD pipeline. The
-compilation is done using Node v16 (LTS).
+compilation is done using latest Nodejs LTS.
