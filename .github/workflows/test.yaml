@@ -1,0 +1,26 @@
+name: Build pages
+
+on: pull_request
+
+permissions:
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+
+      - name: Install Nodejs dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Build pages
+        run: npm run build
