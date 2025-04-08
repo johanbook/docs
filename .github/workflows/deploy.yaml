@@ -19,13 +19,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: "npm"
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
 
       - name: Install Nodejs dependencies
-        run: npm ci --legacy-peer-deps
+        run: pnpm install
 
       - name: Build pages
-        run: npm run build
+        run: pnpm run build
 
       - name: Upload pages
         uses: actions/upload-pages-artifact@v3
