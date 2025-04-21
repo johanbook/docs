@@ -4,10 +4,12 @@ sidebar_position: 1
 slug: /
 ---
 
-This is a wiki on various software related topics. Note that these docs are
-meant to be used for lookup on different topics rather than tutorials.
+Welcome to my coding wiki! This wiki covers a wide range of software-related
+topics, including programming, architecture, DevOps, security, testing, and
+more. It’s designed as a quick-reference guide rather than a step-by-step
+tutorial.
 
 ## Something missing?
 
-If something is incorrect, missing or could be improved, open an issue in
-[here](https://github.com/johanbook/docs/issues).
+If you spot errors, omissions, or have suggestions for improvement, please open
+an issue or submit a pull request [here](https://github.com/johanbook/docs).
