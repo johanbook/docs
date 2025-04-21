@@ -14,6 +14,6 @@ Advantages of using TDD are the following:
 
 The TDD workflow is as follows:
 
-1. Create a unit tests. Make sure it compiles and files.
-2. Impelement the functionality such that the tests pass.
+1. Create a unit tests. Make sure it compiles and fails.
+2. Implement the functionality such that the tests pass.
 3. Refactor and cleanup test.
