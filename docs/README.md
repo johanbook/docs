@@ -8,7 +8,7 @@ import Hero from "./Hero.tsx"
 
 <Hero />
 
-Welcome to my coding wiki! This wiki covers a wide range of software-related
+Welcome to my coding docs! This wiki covers a wide range of software-related
 topics, including programming, architecture, DevOps, security, testing, and
 more. It’s designed as a quick-reference guide rather than a step-by-step
 tutorial.
