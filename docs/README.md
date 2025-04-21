@@ -15,5 +15,5 @@ tutorial.
 
 ## Something missing?
 
-If you spot errors, omissions, or have suggestions for improvement, please open
-an issue or submit a pull request [here](https://github.com/johanbook/docs).
+If you spot errors or have suggestions for improvement, please open an issue or
+submit a pull request [here](https://github.com/johanbook/docs).
