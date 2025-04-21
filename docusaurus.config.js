@@ -82,8 +82,7 @@ const config = {
         title: "Johan Book",
         logo: {
           alt: "Site logo",
-          src: "https://johanbook.com/fs/logo_light.png",
-          srcDark: "https://johanbook.com/fs/logo_dark.png",
+          src: "https://johanbook.com/favicon.ico",
           href: "https://johanbook.com",
           target: "_self",
           height: 20,
