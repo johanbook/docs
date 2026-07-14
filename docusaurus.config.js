@@ -93,18 +93,6 @@ const config = {
             position: "left",
             to: "/",
           },
-          {
-            label: "Cooking",
-            position: "left",
-            target: "_self",
-            to: "https://johanbook.com/cooking",
-          },
-          {
-            label: "Workout",
-            position: "left",
-            target: "_self",
-            to: "https://johanbook.com/workout",
-          },
         ],
       },
       colorMode: {
