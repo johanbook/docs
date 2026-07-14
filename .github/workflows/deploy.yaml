@@ -23,7 +23,7 @@ jobs:
       - name: Setup PNPM
         uses: pnpm/action-setup@v6
         with:
-          version: latest
+          version: 9
 
       - name: Install Nodejs dependencies
         run: pnpm install
