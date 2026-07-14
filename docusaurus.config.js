@@ -87,13 +87,7 @@ const config = {
           target: "_self",
           height: 20,
         },
-        items: [
-          {
-            label: "Coding",
-            position: "left",
-            to: "/",
-          },
-        ],
+        items: [],
       },
       colorMode: {
         respectPrefersColorScheme: true,
